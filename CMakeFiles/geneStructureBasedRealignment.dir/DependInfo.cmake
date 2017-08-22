@@ -1,0 +1,45 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/song/Dropbox/geneStructureBasedRealignment/Cds.cpp" "/Users/song/Dropbox/geneStructureBasedRealignment/CMakeFiles/geneStructureBasedRealignment.dir/Cds.cpp.o"
+  "/Users/song/Dropbox/geneStructureBasedRealignment/InputParser.cpp" "/Users/song/Dropbox/geneStructureBasedRealignment/CMakeFiles/geneStructureBasedRealignment.dir/InputParser.cpp.o"
+  "/Users/song/Dropbox/geneStructureBasedRealignment/alignNeedlemanForTranscript.cpp" "/Users/song/Dropbox/geneStructureBasedRealignment/CMakeFiles/geneStructureBasedRealignment.dir/alignNeedlemanForTranscript.cpp.o"
+  "/Users/song/Dropbox/geneStructureBasedRealignment/alignNeedlemanWunsch.cpp" "/Users/song/Dropbox/geneStructureBasedRealignment/CMakeFiles/geneStructureBasedRealignment.dir/alignNeedlemanWunsch.cpp.o"
+  "/Users/song/Dropbox/geneStructureBasedRealignment/controlLayer.cpp" "/Users/song/Dropbox/geneStructureBasedRealignment/CMakeFiles/geneStructureBasedRealignment.dir/controlLayer.cpp.o"
+  "/Users/song/Dropbox/geneStructureBasedRealignment/model.cpp" "/Users/song/Dropbox/geneStructureBasedRealignment/CMakeFiles/geneStructureBasedRealignment.dir/model.cpp.o"
+  "/Users/song/Dropbox/geneStructureBasedRealignment/myMsa.cpp" "/Users/song/Dropbox/geneStructureBasedRealignment/CMakeFiles/geneStructureBasedRealignment.dir/myMsa.cpp.o"
+  "/Users/song/Dropbox/geneStructureBasedRealignment/myfunctions.cpp" "/Users/song/Dropbox/geneStructureBasedRealignment/CMakeFiles/geneStructureBasedRealignment.dir/myfunctions.cpp.o"
+  "/Users/song/Dropbox/geneStructureBasedRealignment/myutil.cpp" "/Users/song/Dropbox/geneStructureBasedRealignment/CMakeFiles/geneStructureBasedRealignment.dir/myutil.cpp.o"
+  "/Users/song/Dropbox/geneStructureBasedRealignment/nucleotideCodeSubstitutionMatrix.cpp" "/Users/song/Dropbox/geneStructureBasedRealignment/CMakeFiles/geneStructureBasedRealignment.dir/nucleotideCodeSubstitutionMatrix.cpp.o"
+  "/Users/song/Dropbox/geneStructureBasedRealignment/parameters.cpp" "/Users/song/Dropbox/geneStructureBasedRealignment/CMakeFiles/geneStructureBasedRealignment.dir/parameters.cpp.o"
+  "/Users/song/Dropbox/geneStructureBasedRealignment/reAnnotationAndMsa.cpp" "/Users/song/Dropbox/geneStructureBasedRealignment/CMakeFiles/geneStructureBasedRealignment.dir/reAnnotationAndMsa.cpp.o"
+  "/Users/song/Dropbox/geneStructureBasedRealignment/song.cpp" "/Users/song/Dropbox/geneStructureBasedRealignment/CMakeFiles/geneStructureBasedRealignment.dir/song.cpp.o"
+  "/Users/song/Dropbox/geneStructureBasedRealignment/testAlignNeedlemanForTranscript.cpp" "/Users/song/Dropbox/geneStructureBasedRealignment/CMakeFiles/geneStructureBasedRealignment.dir/testAlignNeedlemanForTranscript.cpp.o"
+  "/Users/song/Dropbox/geneStructureBasedRealignment/testAlignNeedlemanWunsch.cpp" "/Users/song/Dropbox/geneStructureBasedRealignment/CMakeFiles/geneStructureBasedRealignment.dir/testAlignNeedlemanWunsch.cpp.o"
+  "/Users/song/Dropbox/geneStructureBasedRealignment/testFastaReading.cpp" "/Users/song/Dropbox/geneStructureBasedRealignment/CMakeFiles/geneStructureBasedRealignment.dir/testFastaReading.cpp.o"
+  "/Users/song/Dropbox/geneStructureBasedRealignment/testGetGenomeSequence.cpp" "/Users/song/Dropbox/geneStructureBasedRealignment/CMakeFiles/geneStructureBasedRealignment.dir/testGetGenomeSequence.cpp.o"
+  "/Users/song/Dropbox/geneStructureBasedRealignment/testGffReading.cpp" "/Users/song/Dropbox/geneStructureBasedRealignment/CMakeFiles/geneStructureBasedRealignment.dir/testGffReading.cpp.o"
+  "/Users/song/Dropbox/geneStructureBasedRealignment/testMsa.cpp" "/Users/song/Dropbox/geneStructureBasedRealignment/CMakeFiles/geneStructureBasedRealignment.dir/testMsa.cpp.o"
+  "/Users/song/Dropbox/geneStructureBasedRealignment/testMultipleThreads.cpp" "/Users/song/Dropbox/geneStructureBasedRealignment/CMakeFiles/geneStructureBasedRealignment.dir/testMultipleThreads.cpp.o"
+  "/Users/song/Dropbox/geneStructureBasedRealignment/testMyGffReading.cpp" "/Users/song/Dropbox/geneStructureBasedRealignment/CMakeFiles/geneStructureBasedRealignment.dir/testMyGffReading.cpp.o"
+  "/Users/song/Dropbox/geneStructureBasedRealignment/testNucleotideCodeSubstitutionMatrix.cpp" "/Users/song/Dropbox/geneStructureBasedRealignment/CMakeFiles/geneStructureBasedRealignment.dir/testNucleotideCodeSubstitutionMatrix.cpp.o"
+  "/Users/song/Dropbox/geneStructureBasedRealignment/testReAnnotationAndMsa.cpp" "/Users/song/Dropbox/geneStructureBasedRealignment/CMakeFiles/geneStructureBasedRealignment.dir/testReAnnotationAndMsa.cpp.o"
+  "/Users/song/Dropbox/geneStructureBasedRealignment/testRunExonerate.cpp" "/Users/song/Dropbox/geneStructureBasedRealignment/CMakeFiles/geneStructureBasedRealignment.dir/testRunExonerate.cpp.o"
+  "/Users/song/Dropbox/geneStructureBasedRealignment/testSdiReading.cpp" "/Users/song/Dropbox/geneStructureBasedRealignment/CMakeFiles/geneStructureBasedRealignment.dir/testSdiReading.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "."
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

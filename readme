@@ -1,0 +1,13 @@
+Get genome sequence from sdi file:
+	A function to get the genome sequence have been implemented. and tested on two A.th accessions
+	TO BE DONE: parallelization,
+				check for alter has no "-"
+
+TO BE DONE:
+	get genome sequence from vcf file
+	liftover
+	STAR or exonerate(Viterbi) based splited mapping
+	MSA based on mafft or seqan
+
+
+test my sub_matrix make sure it is correct
