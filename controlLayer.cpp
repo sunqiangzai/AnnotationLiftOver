@@ -34,7 +34,7 @@ int getGenomeSequence(int argc, char** argv){
         "Options" << std::endl <<
         "   -h        produce help message" << std::endl <<
         "   -r        reference genome in fasta format" << std::endl <<
-        "   -v        variant calling result in sdi format" << std::endl <<
+        "   -v        variant calling result in vcf/sdi format" << std::endl <<
         "   -o        the output pseudo genome sequence in fasta format" << std::endl;
     InputParser inputParser (argc, argv);
     if(inputParser.cmdOptionExists("-h") ||inputParser.cmdOptionExists("--help")  ){
@@ -56,7 +56,7 @@ int coordinateLiftOver( int argc, char** argv ){
     usage <<  "Usage:    * coordinateLiftOver -v variants -c chromosome -p position " << std::endl<<
         "Options" << std::endl <<
         "   -h        produce help message" << std::endl <<
-        "   -v        variant calling result in sdi format" << std::endl <<
+        "   -v        variant calling result in vcf/sdi format" << std::endl <<
         "   -c        chromosome, should be consistent with the chromosome information in sdi file (The coordinate starts from 1)" << std::endl <<
         "   -p        the position/coordinate in reference genome" <<std::endl;
     InputParser inputParser (argc, argv);
@@ -81,7 +81,7 @@ int gffCoordinateLiftOver( int argc, char** argv  ){
         "Usage:    * gffCoordinateLiftOver -v variants -i inputGffFile -o outputGffFile " << std::endl<<
         "Options" << std::endl <<
         "   -h        produce help message" << std::endl <<
-        "   -v        variant calling result in sdi format" << std::endl <<
+        "   -v        variant calling result in vcf/sdi format" << std::endl <<
         "   -i        the input GFF/GTF file of reference line/accession" << std::endl <<
         "   -o        the output GFF/GTF file of target line/accession" << std::endl;
     InputParser inputParser (argc, argv);
@@ -138,7 +138,7 @@ int annotationLiftOver( int argc, char** argv ){
         "   -h        produce help message" << std::endl <<
         "   -i        the input GFF/GTF file of reference line/accession" << std::endl <<
         "   -r        reference genome in fasta format" << std::endl <<
-        "   -v        variant calling result in sdi format" << std::endl <<
+        "   -v        variant calling result in vcf/sdi format" << std::endl <<
         "   -o        the output GFF/GTF file of target line/accession" << std::endl <<
         "   -x        default: ([\\s\\S]*)Parent=([\\s\\S]*?)[;,][\\s\\S]*$  it works for parese the TAIR10 annotation" << std::endl<<
         "                 regex to parser the structure of CDS elements and parent transcript in GFF/GTF file" << std::endl <<
@@ -195,7 +195,7 @@ int annotationLiftOverAndOrth( int argc, char** argv ){
           "   -h        produce help message" << std::endl <<
           "   -i        the input GFF/GTF file of reference line/accession" << std::endl <<
           "   -r        reference genome in fasta format" << std::endl <<
-          "   -v        variant calling result in sdi format" << std::endl <<
+          "   -v        variant calling result in vcf/sdi format" << std::endl <<
           "   -o        the output GFF/GTF file of target line/accession" << std::endl <<
           "   -x        default: ([\\s\\S]*)Parent=([\\s\\S]*?)[;,][\\s\\S]*$  it works for parese the TAIR10 annotation" << std::endl<<
           "                 regex to parser the structure of CDS elements and parent transcript in GFF/GTF file" << std::endl <<
@@ -254,7 +254,7 @@ int reAnnotationAndExonerateAndNovo( int argc, char** argv ){
           "   -i        the input GFF/GTF file of reference line/accession" << std::endl <<
           "   -n        the de novo annotation GFF of the target accession" << std::endl <<
           "   -r        reference genome in fasta format" << std::endl <<
-          "   -v        variant calling result in sdi format" << std::endl <<
+          "   -v        variant calling result in vcf/sdi format" << std::endl <<
           "   -o        the output GFF/GTF file of target line/accession" << std::endl <<
           "   -x        default: ([\\s\\S]*)Parent=([\\s\\S]*?)[;,][\\s\\S]*$  it works for parese the TAIR10 annotation" << std::endl<<
           "                 regex to parser the structure of CDS elements and parent transcript in GFF/GTF file" << std::endl <<
@@ -327,7 +327,7 @@ int myCountNumberOfTwoneighborSNP( int argc, char** argv  ){
     std::stringstream usage;
     usage <<  "Usage:    * countNumberOfTwoneighborSNP -v variants" << std::endl <<
         "   -h        produce help message" << std::endl <<
-        "   -v        variant calling result in sdi format" << std::endl <<
+        "   -v        variant calling result in vcf/sdi format" << std::endl <<
         "   -l        (int) number of bases in which range there should be no variants for double SNP" << std::endl <<
         "   -o        prefix of output file" <<std::endl;
     InputParser inputParser (argc, argv);
@@ -356,7 +356,7 @@ int mycountNumberSNPAndIndel( int argc, char** argv  ){
     std::stringstream usage;
     usage <<  "Usage:    * countNumberSNPAndIndel -v variants" << std::endl <<
           "   -h        produce help message" << std::endl <<
-          "   -v        variant calling result in sdi format" << std::endl <<
+          "   -v        variant calling result in vcf/sdi format" << std::endl <<
           "   -l        (int) number of bases in which range there should be no INDEL" << std::endl <<
           "   -o        prefix of output file" <<std::endl;
     InputParser inputParser (argc, argv);
@@ -384,7 +384,7 @@ int myGenerateRandomSdi( int argc, char** argv  ){
     std::stringstream usage;
     usage <<  "Usage:    * generateRandomSdi -v variants" << std::endl <<
           "   -h        produce help message" << std::endl <<
-          "   -v        variant calling result in sdi format" << std::endl <<
+          "   -v        variant calling result in vcf/sdi format" << std::endl <<
           "   -r        reference genome in fasta format" << std::endl <<
           "   -o        prefix of output file" <<std::endl;
     InputParser inputParser (argc, argv);
