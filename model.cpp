@@ -162,6 +162,11 @@ std::ostream &print(std::ostream& out, const Variant& variant){
         variant.getChanginglength() << "\t" << variant.getReference() << "\t" << variant.getAlternative();
     return out;
 }
+std::ostream &println(std::ostream& out, const Variant& variant){
+    out << variant.getChromosome() << "\t" << variant.getPosition() << "\t" <<
+        variant.getChanginglength() << "\t" << variant.getReference() << "\t" << variant.getAlternative() << std::endl;
+    return out;
+}
 //variant record class end
 
 

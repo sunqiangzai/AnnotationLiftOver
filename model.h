@@ -90,7 +90,7 @@ class Variant{
         bool overlap(int position);
 };
 std::ostream &print(std::ostream&, const Variant&);
-
+std::ostream &println(std::ostream&, const Variant&);
 struct compare_sdi_record
 {
     inline bool operator() ( Variant& variant1, Variant& variant2 )
