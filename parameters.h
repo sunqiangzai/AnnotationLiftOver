@@ -1,6 +1,26 @@
-//
-// Created by baoxing on 6/12/17.
-//
+/*
+ * =====================================================================================
+ *
+ *       Filename:  parameters.h
+ *
+ *    Description:
+ *
+ *        Version:  1.0
+ *        Created:  06/03/2017 23:33:37
+ *       Revision:  none
+ *       Compiler:  gcc
+ *
+ *         Author:  Baoxing Song (songbx.me), song@mpipz.mpg.de
+ *   Organization:  MPIPZ
+ *
+ * =====================================================================================
+ */
+/*************************************************************************
+
+
+
+
+ ************************************************************************/
 
 #ifndef VARIANTSANNOTATIONSOFTWARE_PARAMETERS_H
 #define VARIANTSANNOTATIONSOFTWARE_PARAMETERS_H

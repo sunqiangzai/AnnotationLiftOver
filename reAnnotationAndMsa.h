@@ -1,6 +1,27 @@
-//
-// Created by baoxing on 6/12/17.
-//
+/*
+ * =====================================================================================
+ *
+ *       Filename:  reAnnotationAndMsa.h
+ *
+ *    Description:
+ *
+ *        Version:  1.0
+ *        Created:  06/03/2017 23:33:37
+ *       Revision:  none
+ *       Compiler:  gcc
+ *
+ *         Author:  Baoxing Song (songbx.me), song@mpipz.mpg.de
+ *   Organization:  MPIPZ
+ *
+ * =====================================================================================
+ */
+/*************************************************************************
+
+
+
+
+ ************************************************************************/
+
 
 #ifndef VARIANTSANNOTATIONSOFTWARE_REANNOTATIONANDMSA_H
 #define VARIANTSANNOTATIONSOFTWARE_REANNOTATIONANDMSA_H

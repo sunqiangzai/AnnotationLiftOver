@@ -10,8 +10,8 @@
  *       Revision:  none
  *       Compiler:  gcc
  *
- *         Author:  YOUR NAME (), 
- *   Organization:  
+ *         Author:  Baoxing Song (songbx.me), song@mpipz.mpg.de
+ *   Organization:  MPIPZ
  *
  * =====================================================================================
  */
