@@ -39,783 +39,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4736a4aa-8705-45bd-ba0e-65c915f8f81a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeCache.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/3.8.2/CMakeCCompiler.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/3.8.2/CMakeCXXCompiler.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/3.8.2/CMakeDetermineCompilerABI_C.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/3.8.2/CMakeDetermineCompilerABI_CXX.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/3.8.2/CMakeSystem.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/3.8.2/CompilerIdC/CMakeCCompilerId.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/3.8.2/CompilerIdC/a.out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/3.8.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/3.8.2/CompilerIdCXX/a.out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/CMakeOutput.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/Makefile.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/Makefile2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/Progress/1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/Progress/2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/Progress/3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/Progress/4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/Progress/5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/Progress/6" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/Progress/7" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/Progress/8" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/Progress/count.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/TargetDirectories.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/clion-environment.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/clion-log.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/cmake.check_cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/feature_tests.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/feature_tests.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/feature_tests.cxx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/geneStructureBasedRealignment.dir/CXX.includecache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/geneStructureBasedRealignment.dir/Cds.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/geneStructureBasedRealignment.dir/DependInfo.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/geneStructureBasedRealignment.dir/InputParser.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/geneStructureBasedRealignment.dir/alignNeedlemanForTranscript.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/geneStructureBasedRealignment.dir/alignNeedlemanWunsch.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/geneStructureBasedRealignment.dir/build.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/geneStructureBasedRealignment.dir/cmake_clean.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/geneStructureBasedRealignment.dir/controlLayer.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/geneStructureBasedRealignment.dir/depend.internal" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/geneStructureBasedRealignment.dir/depend.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/geneStructureBasedRealignment.dir/flags.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/geneStructureBasedRealignment.dir/link.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/geneStructureBasedRealignment.dir/model.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/geneStructureBasedRealignment.dir/myfunctions.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/geneStructureBasedRealignment.dir/progress.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/progress.marks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MPIPZ-VPN-Certs.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Makefilex99" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TAIR10_GFF3_genes.gff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TODO" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/alignNeedlemanForTranscript2.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/alignNeedlemanForTranscript2.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exportToHTML/myfunctions.cpp.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/geneStructureBasedRealignment.cbp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/makefileback" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myMsa.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myMsa.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myfunctions (baoxing’s MacBook Pro's conflicted copy 2017-08-10).cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reAnnotationAndMsa.BACKUP.2.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reAnnotationAndMsa.BACKUP.4.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reAnnotationAndMsa.BACKUP.5.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reAnnotationAndMsa.backup.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/.idea/seqan.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/CMakeLists.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/align_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/align_cols.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/align_config.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/align_interface_wrapper.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/align_iterator_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/align_metafunctions.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/align_traceback.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/alignment_algorithm_tags.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/alignment_operations.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/dp_algorithm_impl.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/dp_align_simd_helper.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/dp_band.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/dp_cell.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/dp_cell_affine.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/dp_cell_dynamic.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/dp_cell_linear.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/dp_context.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/dp_formula.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/dp_formula_affine.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/dp_formula_dynamic.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/dp_formula_linear.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/dp_matrix.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/dp_matrix_navigator.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/dp_matrix_navigator_score_matrix.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/dp_matrix_navigator_score_matrix_sparse.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/dp_matrix_navigator_trace_matrix.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/dp_matrix_sparse.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/dp_meta_info.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/dp_profile.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/dp_scout.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/dp_scout_simd.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/dp_setup.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/dp_trace_segment.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/dp_traceback_adaptor.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/dp_traceback_impl.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/evaluate_alignment.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/fragment.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/gap_anchor.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/gapped_value_type.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/gaps_anchor.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/gaps_array.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/gaps_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/gaps_iterator_anchor.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/gaps_iterator_array.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/gaps_iterator_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/global_alignment_banded.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/global_alignment_hirschberg_impl.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/global_alignment_myers_hirschberg_impl.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/global_alignment_myers_impl.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/global_alignment_specialized.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/global_alignment_unbanded.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/local_alignment_banded.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/local_alignment_banded_waterman_eggert_impl.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/local_alignment_enumeration.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/local_alignment_enumeration_banded.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/local_alignment_enumeration_unbanded.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/local_alignment_unbanded.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/local_alignment_waterman_eggert_impl.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align/matrix_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align_extend.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align_extend/align_extend.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align_extend/align_extend_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align_extend/dp_scout_xdrop.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align_profile.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align_profile/add_to_profile.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align_profile/score_profile_seq.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align_split.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align_split/align_split_interface.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/align_split/dp_scout_split.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/alignment_free.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/alignment_free/af_d2.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/alignment_free/af_d2star.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/alignment_free/af_d2z.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/alignment_free/af_n2.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/alignment_free/alignment_free_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/alignment_free/alignment_free_comparison.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/alignment_free/kmer_functions.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/arg_parse.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/arg_parse/arg_parse_argument.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/arg_parse/arg_parse_ctd_support.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/arg_parse/arg_parse_doc.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/arg_parse/arg_parse_exceptions.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/arg_parse/arg_parse_option.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/arg_parse/arg_parse_parse.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/arg_parse/arg_parse_type_support.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/arg_parse/arg_parse_version_check.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/arg_parse/argument_parser.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/arg_parse/tool_doc.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/arg_parse/xml_support.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/bam_io.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/bam_io/bam_alignment_record.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/bam_io/bam_alignment_record_util.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/bam_io/bam_file.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/bam_io/bam_header_record.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/bam_io/bam_index_bai.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/bam_io/bam_io_context.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/bam_io/bam_sam_conversion.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/bam_io/bam_scanner_cache.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/bam_io/bam_tags_dict.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/bam_io/cigar.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/bam_io/read_bam.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/bam_io/read_sam.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/bam_io/write_bam.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/bam_io/write_sam.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/aggregate_concept.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/allocator_chunkpool.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/allocator_interface.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/allocator_multipool.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/allocator_simple.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/allocator_singlepool.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/allocator_to_std.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/alphabet_adapt_builtins.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/alphabet_bio.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/alphabet_concept.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/alphabet_math.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/alphabet_profile.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/alphabet_qualities.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/alphabet_residue.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/alphabet_residue_funcs.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/alphabet_residue_tabs.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/alphabet_simple_type.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/alphabet_storage.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/array_construct_destruct.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/basic_aggregate.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/basic_allocator.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/basic_alphabet.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/basic_concept.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/basic_container.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/basic_debug.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/basic_device.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/basic_exception.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/basic_functors.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/basic_fundamental.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/basic_iterator.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/basic_math.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/basic_metaprogramming.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/basic_parallelism.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/basic_proxy.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/basic_simd_vector.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/basic_smart_pointer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/basic_stream.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/basic_tangle.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/basic_type.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/basic_view.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/boost_preprocessor_subset.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/builtin_functions.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/concept_checking.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/container_concept.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/debug_helper.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/debug_test_system.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/fundamental_chunking.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/fundamental_comparison.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/fundamental_concepts.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/fundamental_conversion.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/fundamental_metafunctions.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/fundamental_tags.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/fundamental_transport.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/holder_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/holder_simple.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/holder_tristate.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/hosted_type_interface.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/iterator_adapt_pointer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/iterator_adapt_std.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/iterator_adaptor.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/iterator_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/iterator_concept.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/iterator_counting.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/iterator_interface.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/iterator_position.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/iterator_range.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/iterator_zip.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/macro_deprecated.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/math_functions.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/math_log_space_value.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/metaprogramming_control.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/metaprogramming_enable_if.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/metaprogramming_logic.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/metaprogramming_math.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/metaprogramming_type.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/metaprogramming_type_algebra.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/pair_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/pair_bit_compressed.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/pair_packed.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/profiling.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/property_map_concept.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/proxy_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/proxy_iterator.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/test_system.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/triple_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/triple_packed.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/tuple_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/tuple_bit_compressed.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/basic/volatile_ptr.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/bed_io.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/bed_io/bed_file.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/bed_io/bed_record.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/bed_io/read_bed.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/bed_io/write_bed.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/blast.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/blast/blast_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/blast/blast_io_context.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/blast/blast_record.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/blast/blast_report_out.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/blast/blast_statistics.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/blast/blast_tabular.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/blast/blast_tabular_in.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/blast/blast_tabular_lowlevel.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/blast/blast_tabular_out.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/consensus.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/consensus/consensus_aligner.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/consensus/consensus_aligner_interface.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/consensus/consensus_alignment_options.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/consensus/consensus_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/consensus/consensus_builder.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/consensus/consensus_library.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/consensus/consensus_realign.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/consensus/consensus_score.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/consensus/overlap_info_computation.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/consensus/overlapper.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/file.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/file/file_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/file/file_cstyle.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/file/file_forwards.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/file/file_interface.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/file/file_mapping.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/file/file_page.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/file/string_external.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/file/string_mmap.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/find.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/find/find_abndm.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/find/find_ahocorasick.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/find/find_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/find/find_begin.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/find/find_bndm.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/find/find_bom.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/find/find_hamming_simple.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/find/find_horspool.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/find/find_lambda.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/find/find_multi.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/find/find_multiple_bfam.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/find/find_multiple_shiftand.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/find/find_myers_ukkonen.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/find/find_pattern_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/find/find_pex.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/find/find_score.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/find/find_set_horspool.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/find/find_shiftand.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/find/find_shiftor.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/find/find_simple.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/find/find_wild_shiftand.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/find/find_wumanber.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/gff_io.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/gff_io/gff_file.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/gff_io/gff_io_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_algorithms.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_algorithms/all_pairs_shortest_path.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_algorithms/bellman_ford.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_algorithms/bipartite_matching.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_algorithms/breadth_first_search.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_algorithms/connected_components.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_algorithms/depth_first_search.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_algorithms/dijkstra.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_algorithms/floyd_warshall.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_algorithms/ford_fulkerson.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_algorithms/graph_algorithm_heap_tree.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_algorithms/graph_algorithm_hmm.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_algorithms/graph_algorithm_lis_his.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_algorithms/kruskal.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_algorithms/path_growing.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_algorithms/prim.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_algorithms/single_source_shortest_path.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_algorithms/strongly_connected_compnents.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_algorithms/topological_sort.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_algorithms/transitive_closure.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_algorithms/weakly_connected_components.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_algorithms/weighted_bipartite_matching.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_align.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_align/graph_algorithm_refine_align.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_align/graph_algorithm_refine_aligngraph.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_align/graph_algorithm_refine_annotation.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_align/graph_algorithm_refine_exact.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_align/graph_algorithm_refine_exact_iterative.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_align/graph_algorithm_refine_fragment.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_align/graph_algorithm_refine_inexact.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_align/graph_algorithm_refine_scoring.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_align/graph_impl_align.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_align/graph_impl_align_adapt.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_msa.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_msa/graph_align_tcoffee_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_msa/graph_align_tcoffee_distance.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_msa/graph_align_tcoffee_guidetree.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_msa/graph_align_tcoffee_io.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_msa/graph_align_tcoffee_kmer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_msa/graph_align_tcoffee_library.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_msa/graph_align_tcoffee_msa.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_msa/graph_align_tcoffee_progressive.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_msa/graph_align_tcoffee_refinement.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_types.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_types/graph_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_types/graph_drawing.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_types/graph_edgestump.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_types/graph_idmanager.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_types/graph_impl_automaton.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_types/graph_impl_directed.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_types/graph_impl_hmm.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_types/graph_impl_oracle.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_types/graph_impl_tree.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_types/graph_impl_trie.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_types/graph_impl_undirected.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_types/graph_impl_wordgraph.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_types/graph_interface.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_types/graph_iterator.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_types/graph_iterator_adjacency.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_types/graph_iterator_bfs.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_types/graph_iterator_dfs.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_types/graph_iterator_edge.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_types/graph_iterator_outedge.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_types/graph_iterator_vertex.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_types/graph_utility_parsing.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_types/property_map_generic.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_types/property_map_internal.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/graph_types/property_map_internal_pointer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/find2_backtracking.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/find2_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/find2_functors.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/find2_index.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/find2_index_multi.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/find2_vstree_factory.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/find_backtracking.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/find_index.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/find_index_approx.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/find_index_binary.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/find_index_esa.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/find_index_lambda.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/find_index_qgram.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/find_pigeonhole.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/find_quasar.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/find_swift.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_bidirectional.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_bidirectional_stree.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_bifm.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_bifm_stree.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_bwt.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_childtab.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_device.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_dfi.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_esa_algs.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_esa_algs_multi.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_esa_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_esa_drawing.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_esa_stree.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_fm.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_fm_compressed_sa.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_fm_compressed_sa_iterator.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_fm_dox.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_fm_lf_table.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_fm_rank_dictionary_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_fm_rank_dictionary_levels.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_fm_rank_dictionary_naive.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_fm_rank_dictionary_wt.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_fm_right_array_binary_tree.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_fm_right_array_binary_tree_iterator.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_fm_sparse_string.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_fm_stree.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_forwards.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_lcp.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_lcp_tree.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_pizzachili.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_pizzachili_find.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_pizzachili_string.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_qgram.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_qgram_bucketrefinement.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_qgram_openaddressing.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_qgram_stree.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_sa_btree.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_sa_bwtwalk.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_sa_lss.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_sa_mm.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_sa_qsort.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_sa_stree.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_sa_truncated.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_shawarma.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_shims.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_skew3.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_skew7.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_skew7_multi.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_view.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/index_wotd.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/pipe_merger3.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/pipe_merger7.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/pizzachili_api.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/pump_extender3.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/pump_extender7.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/pump_lcp_core.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/pump_separator7.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/radix.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/repeat_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/shape_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/shape_gapped.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/shape_minimizer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/shape_onegapped.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/shape_predefined.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/index/shape_threshold.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/journaled_set.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/journaled_set/journal_alignment_interface.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/journaled_set/journal_alignment_traceback_adaptor.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/journaled_set/journaled_set_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/journaled_set/journaled_set_impl.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/journaled_set/journaled_set_join.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/journaled_set/journaled_set_join_config.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/journaled_set/journaled_set_join_global_align_compact.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/journaled_set/journaled_set_join_global_align_manhatten.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/journaled_set/journaled_set_journal_trace_descriptor.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/journaled_set/score_biaffine.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/journaled_string_tree.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/journaled_string_tree/delta_map.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/journaled_string_tree/delta_map_entry.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/journaled_string_tree/delta_map_iterator.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/journaled_string_tree/delta_store.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/journaled_string_tree/journaled_string_tree_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/journaled_string_tree/journaled_string_tree_impl.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/journaled_string_tree/journaled_string_tree_sequence_buffer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/journaled_string_tree/journaled_string_tree_traverser.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/journaled_string_tree/journaled_string_tree_traverser_node.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/journaled_string_tree/journaled_string_tree_traverser_util.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/journaled_string_tree/jst_extension_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/journaled_string_tree/jst_extension_horspool.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/journaled_string_tree/jst_extension_myers_ukkonen.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/journaled_string_tree/jst_extension_shiftand.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/journaled_string_tree/jst_extension_shiftor.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/journaled_string_tree/observable.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/journaled_string_tree/stack_observer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/map.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/map/map_adapter_stl.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/map/map_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/map/map_chooser.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/map/map_skiplist.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/map/map_vector.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/map/sumlist.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/map/sumlist_mini.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/map/sumlist_skip.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/math.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/math/math_common_factor.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/math/math_operators.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/math/math_rational.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/misc/accumulators.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/misc/base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/misc/bit_twiddling.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/misc/bit_twiddling_functors.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/misc/dequeue.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/misc/edit_environment.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/misc/interval_tree.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/misc/map.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/misc/memset.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/misc/name_store_cache.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/misc/priority_type_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/misc/priority_type_heap.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/misc/set.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/misc/svg.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/misc/terminal.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/misc/union_find.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/modifier.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/modifier/cyclic_shape.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/modifier/modifier_alphabet.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/modifier/modifier_alphabet_expansion.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/modifier/modifier_cyclic_shape.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/modifier/modifier_functors.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/modifier/modifier_iterator.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/modifier/modifier_padding.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/modifier/modifier_position.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/modifier/modifier_reverse.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/modifier/modifier_shortcuts.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/modifier/modifier_string.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/modifier/modifier_view.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/parallel.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/parallel/parallel_algorithms.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/parallel/parallel_atomic_misc.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/parallel/parallel_atomic_primitives.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/parallel/parallel_lock.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/parallel/parallel_macros.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/parallel/parallel_queue.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/parallel/parallel_queue_suspendable.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/parallel/parallel_resource_pool.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/parallel/parallel_sequence.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/parallel/parallel_serializer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/parallel/parallel_splitting.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/parallel/parallel_tags.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/parse_lm.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/parse_lm/local_match_store.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/parse_lm/parse_blastn_tabular.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/parse_lm/parse_lastz_general.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/parse_lm/parse_stellar_gff.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/pipe.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/pipe/pipe_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/pipe/pipe_caster.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/pipe/pipe_counter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/pipe/pipe_echoer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/pipe/pipe_edit_environment.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/pipe/pipe_filter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/pipe/pipe_iterator.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/pipe/pipe_joiner.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/pipe/pipe_namer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/pipe/pipe_sampler.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/pipe/pipe_shifter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/pipe/pipe_source.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/pipe/pipe_tupler.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/pipe/pool_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/pipe/pool_mapper.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/pipe/pool_sorter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/platform.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/random.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/random/random_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/random/random_beta.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/random/random_util.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/realign.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/realign/realign_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/realign/realign_helper_functions.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/reduced_aminoacid.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/reduced_aminoacid/reduced_aminoacid_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/reduced_aminoacid/reduced_aminoacid_base_late.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/reduced_aminoacid/reduced_aminoacid_cluster_red_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/reduced_aminoacid/reduced_aminoacid_cluster_red_tables_20_to_n_b62.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/reduced_aminoacid/reduced_aminoacid_cluster_red_tables_22_to_n_b62.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/reduced_aminoacid/reduced_aminoacid_cluster_red_tables_24_to_n_b62.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/reduced_aminoacid/reduced_aminoacid_murphy10_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/reduced_aminoacid/reduced_aminoacid_murphy10_tables.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/rna_io.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/rna_io/bpseq_read_write.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/rna_io/connect_read_write.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/rna_io/dot_bracket_read_write.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/rna_io/ebpseq_read_write.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/rna_io/rna_header.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/rna_io/rna_io_context.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/rna_io/rna_record.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/rna_io/rna_struct_file.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/rna_io/stockholm_read_write.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/rna_io/vienna_read_write.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/roi_io.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/roi_io/read_roi.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/roi_io/roi_file.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/roi_io/roi_io_context.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/roi_io/roi_record.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/roi_io/write_roi.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/score.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/score/score_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/score/score_edit.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/score/score_matrix.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/score/score_matrix_data.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/score/score_matrix_dyn.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/score/score_matrix_io.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/score/score_simd_wrapper.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/score/score_simple.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/seeds.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/seeds/banded_chain_alignment.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/seeds/banded_chain_alignment_impl.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/seeds/banded_chain_alignment_profile.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/seeds/banded_chain_alignment_scout.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/seeds/banded_chain_alignment_traceback.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/seeds/basic_iter_indirect.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/seeds/seeds_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/seeds/seeds_combination.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/seeds/seeds_extension.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/seeds/seeds_global_chaining.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/seeds/seeds_global_chaining_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/seeds/seeds_global_chaining_gusfield.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/seeds/seeds_seed_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/seeds/seeds_seed_chained.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/seeds/seeds_seed_diagonal.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/seeds/seeds_seed_set_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/seeds/seeds_seed_set_non_scored.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/seeds/seeds_seed_set_scored.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/seeds/seeds_seed_set_unordered.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/seeds/seeds_seed_simple.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/seq_io.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/seq_io/bam_sam.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/seq_io/fai_index.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/seq_io/fasta_fastq.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/seq_io/genomic_region.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/seq_io/read_embl.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/seq_io/read_genbank.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/seq_io/sequence_file.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/sequence.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/sequence/adapt_array_pointer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/sequence/adapt_stl_container.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/sequence/container_view.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/sequence/container_view_zip.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/sequence/iter_concat_virtual.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/sequence/segment_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/sequence/segment_infix.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/sequence/segment_prefix.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/sequence/segment_suffix.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/sequence/segment_utils.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/sequence/sequence_concatenator.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/sequence/sequence_forwards.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/sequence/sequence_interface.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/sequence/sequence_lexical.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/sequence/sequence_shortcuts.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/sequence/string_alloc.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/sequence/string_array.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/sequence/string_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/sequence/string_block.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/sequence/string_cstyle.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/sequence/string_packed.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/sequence/string_packed_old.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/sequence/string_set_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/sequence/string_set_concat_direct.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/sequence/string_set_dependent_generous.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/sequence/string_set_dependent_tight.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/sequence/string_set_owner.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/sequence/string_set_segment.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/sequence/string_set_view.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/sequence_journaled.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/sequence_journaled/journal_entries_sorted_array.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/sequence_journaled/journal_entry.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/sequence_journaled/sequence_journaled.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/sequence_journaled/sequence_journaled_iterator.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/sequence_journaled/sequence_journaled_iterator_fast.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/simple_intervals_io.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/simple_intervals_io/simple_intervals_file.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/simple_intervals_io/simple_intervals_io.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/statistics.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/statistics/statistics_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/statistics/statistics_markov_model.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/store.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/store/store_align.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/store/store_align_intervals.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/store/store_all.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/store/store_annotation.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/store/store_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/store/store_contig.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/store/store_intervaltree.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/store/store_io.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/store/store_io_gff.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/store/store_io_sam.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/store/store_io_ucsc.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/store/store_library.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/store/store_matepair.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/store/store_read.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/stream.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/stream/adapt_ios.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/stream/buffered_stream.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/stream/file_stream.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/stream/formatted_file.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/stream/guess_format.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/stream/iostream_bgzf.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/stream/iostream_bzip2.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/stream/iostream_bzip2_impl.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/stream/iostream_zip.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/stream/iostream_zip_impl.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/stream/iostream_zutil.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/stream/iter_stream.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/stream/lexical_cast.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/stream/stream_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/stream/stream_compressor.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/stream/tokenization.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/stream/virtual_stream.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/system.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/system/file_async.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/system/file_directory.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/system/file_forwards.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/system/file_sync.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/system/system_base.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/system/system_event_win.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/system/system_forwards.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/tabix_io.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/tabix_io/tabix_index_tbi.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/translation.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/translation/translation.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/translation/translation_tables.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/ucsc_io.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/ucsc_io/ucsc_file.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/ucsc_io/ucsc_io.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/ucsc_io/ucsc_record.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/vcf_io.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/vcf_io/read_vcf.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/vcf_io/vcf_file.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/vcf_io/vcf_header.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/vcf_io/vcf_header_record.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/vcf_io/vcf_io_context.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/vcf_io/vcf_record.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/vcf_io/write_vcf.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seqan/version.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/summary" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testAlignNeedlemanForTranscript.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testAlignNeedlemanWunsch.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testFastaReading.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testGetGenomeSequence.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testGffReading.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testMsa.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testMultipleThreads.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testMyGffReading.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testNucleotideCodeSubstitutionMatrix.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testReAnnotationAndMsa.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testRunExonerate.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testSdiReading.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/trycatchfinally.h" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model.cpp" afterPath="$PROJECT_DIR$/model.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model.h" afterPath="$PROJECT_DIR$/model.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myutil.cpp" afterPath="$PROJECT_DIR$/myutil.cpp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/song" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InputParser.cpp" afterPath="$PROJECT_DIR$/InputParser.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
@@ -839,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/reAnnotationAndMsa.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-2076">
-              <caret line="472" column="0" lean-forward="true" selection-start-line="472" selection-start-column="0" selection-end-line="472" selection-end-column="0" />
+              <caret line="472" column="0" lean-forward="false" selection-start-line="472" selection-start-column="0" selection-end-line="472" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -858,18 +83,8 @@
       <file leaf-file-name="myfunctions.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myfunctions.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="120" column="13" lean-forward="false" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="controlLayer.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controlLayer.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="45" column="26" lean-forward="false" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+            <state relative-caret-position="55">
+              <caret line="106" column="17" lean-forward="true" selection-start-line="106" selection-start-column="17" selection-end-line="106" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -885,11 +100,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myutil.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="myutil.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myutil.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="207" column="19" lean-forward="false" selection-start-line="207" selection-start-column="19" selection-end-line="207" selection-end-column="19" />
+            <state relative-caret-position="140">
+              <caret line="203" column="63" lean-forward="true" selection-start-line="203" selection-start-column="63" selection-end-line="203" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="song.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/song.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="40" column="10" lean-forward="true" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InputParser.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InputParser.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="582">
+              <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InputParser.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/InputParser.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="582">
+              <caret line="82" column="50" lean-forward="true" selection-start-line="82" selection-start-column="50" selection-end-line="82" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -910,26 +155,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" column="47" lean-forward="false" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="parameters.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parameters.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-483">
-              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myutil.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myutil.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -967,8 +192,8 @@
       <find>to</find>
       <find>spli</find>
       <find>sdi</find>
-      <find>Sd</find>
       <find>print</find>
+      <find>Sd</find>
     </findStrings>
     <replaceStrings>
       <replace>DENOVO</replace>
@@ -1009,7 +234,6 @@
         <option value="$PROJECT_DIR$/nucleotideCodeSubstitutionMatrix.cpp" />
         <option value="$PROJECT_DIR$/parameters.h" />
         <option value="$PROJECT_DIR$/parameters.cpp" />
-        <option value="$PROJECT_DIR$/InputParser.cpp" />
         <option value="$PROJECT_DIR$/song.cpp" />
         <option value="$PROJECT_DIR$/controlLayer.h" />
         <option value="$PROJECT_DIR$/myfunctions.h" />
@@ -1023,6 +247,7 @@
         <option value="$PROJECT_DIR$/model.h" />
         <option value="$PROJECT_DIR$/model.cpp" />
         <option value="$PROJECT_DIR$/myutil.cpp" />
+        <option value="$PROJECT_DIR$/InputParser.cpp" />
       </list>
     </option>
   </component>
@@ -1542,13 +767,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/InputParser.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="20" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myMsa.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1350">
@@ -1570,13 +788,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/InputParser.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="76" column="47" lean-forward="false" selection-start-line="76" selection-start-column="47" selection-end-line="76" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controlLayer.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -1595,14 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/song.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="25" lean-forward="false" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1666,7 +869,7 @@
     <entry file="file://$PROJECT_DIR$/parameters.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-483">
-          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1714,23 +917,47 @@
     <entry file="file://$PROJECT_DIR$/reAnnotationAndMsa.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2076">
-          <caret line="472" column="0" lean-forward="true" selection-start-line="472" selection-start-column="0" selection-end-line="472" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myfunctions.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="120" column="13" lean-forward="false" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
+          <caret line="472" column="0" lean-forward="false" selection-start-line="472" selection-start-column="0" selection-end-line="472" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myutil.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="207" column="19" lean-forward="false" selection-start-line="207" selection-start-column="19" selection-end-line="207" selection-end-column="19" />
+        <state relative-caret-position="140">
+          <caret line="203" column="63" lean-forward="true" selection-start-line="203" selection-start-column="63" selection-end-line="203" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myfunctions.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="106" column="17" lean-forward="true" selection-start-line="106" selection-start-column="17" selection-end-line="106" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/song.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="40" column="10" lean-forward="true" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InputParser.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InputParser.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="82" column="50" lean-forward="true" selection-start-line="82" selection-start-column="50" selection-end-line="82" selection-end-column="50" />
           <folding />
         </state>
       </provider>

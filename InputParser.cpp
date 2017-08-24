@@ -65,15 +65,20 @@ void usage( ){
         "gffCoordinateLiftOver          transform the reference GFF/GTF coordinate to the coordinate of another accession," << std::endl <<
         "                               don't care about the completeness of start/stop codon, splice sites" << std::endl<<
         "getSequences                   get the protein/CDS/gene sequence with genome sequence file and GFF/GTF file" << std::endl<<
-        "annotationLiftOver             transform the reference GFF/GTF coordinate to the coordinate of another accession," << std::endl <<
-        "                               complementing with trying to keep the ORF/splice sites and complete as possible by " << std::endl <<
-        "                               genome sequence alignment" << std::endl <<
-        "annotationLiftOverAndOrth      transform the reference GFF/GTF coordinate to the coordinate of another accession," << std::endl <<
-        "                               complementing with trying to keep the ORF/splice sites and complete as possible by " << std::endl <<
-        "                               genome sequence alignment and then complementing with aligning CDS sequence of " << std::endl <<
-        "                               reference to the genome sequence of target line and then complementing with " << std::endl <<
+//        "annotationLiftOver             transform the reference GFF/GTF coordinate to the coordinate of another accession," << std::endl <<
+//        "                               complementing with trying to keep the ORF/splice sites and complete as possible by " << std::endl <<
+//        "                               genome sequence alignment" << std::endl <<
+//        "annotationLiftOverAndOrth      transform the reference GFF/GTF coordinate to the coordinate of another accession," << std::endl <<
+//        "                               complementing with trying to keep the ORF/splice sites and complete as possible by " << std::endl <<
+//        "                               genome sequence alignment and then complementing with aligning CDS sequence of " << std::endl <<
+//        "                               reference to the genome sequence of target line and then complementing with " << std::endl <<
+//        "                               aligning protein sequence of reference to the genome sequence of target line" << std::endl <<
+        "annotationAndExonerateAndNovo  transform the reference GFF/GTF coordinate to the coordinate of another accession," << std::endl <<
+        "                               complementing with trying to keep the ORF/splice sites and complete as possible by"  << std::endl <<
+        "                               genome sequence alignment. And then complementing with aligning CDS sequence of " << std::endl <<
+        "                               reference to the genome sequence of target line and then complementing with"  << std::endl <<
         "                               aligning protein sequence of reference to the genome sequence of target line" << std::endl <<
-        "annotationAndExonerateAndNovo after annotationLiftOverAndOrth, the missing gene annotation would be complemented with" << std::endl <<
-        "                               de novo annotation " << std::endl <<
+        "                               Finally the missing gene annotation would be complemented with" << std::endl <<
+        "                               other annotation inputted " << std::endl <<
                                         std::endl;
 }
