@@ -40,7 +40,7 @@ Bug report? Any question? Any suggestion? Any requirement?\
 Please feel free to send E-mail to songbaoxing168@163.com.
 
 ### acknowledgement
-I thank\
- Hequan Sun (MPIPZ) for the discussion of algorithm design for gene structure alignment
+I thank:\
+ Hequan Sun (MPIPZ) for the discussion of algorithm design for gene structure alignment\
  Lukas Baumgarten (MPIPZ) for bug reporting
 
