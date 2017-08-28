@@ -1,12 +1,12 @@
 # AnnotationLiftOver
-A pipeline to liftover the gene structure of reference genome to other lines/accessions
+A pipeline to liftover the gene structure of reference genome to other lines/accessions\
 
-##install
+## install
 go to the source folder:\
 `make`\
-this command will generate a file named `AnnotationLiftOver`
-##run it
+this command will generate a file named `AnnotationLiftOver`\
 
+## run it
 Program `AnnotationLiftOver`\
 Usage:  `AnnotationLiftOver` <command> [options]\
 Commands:\
@@ -23,7 +23,7 @@ Commands:\
                                Finally the missing gene annotation would be complemented with
                                other annotation inputted\
                                
-###getGenomeSequence
+### getGenomeSequence
 Usage:    * getGenomeSequence -r reference -v variants -o output\
 Options\
    -h        produce help message\
