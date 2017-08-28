@@ -47,8 +47,8 @@ void readFastaFile( const std::string& filePath, std::map<std::string, Fasta>& s
 std::string getSubsequence(std::map<std::string, Fasta>& sequences, std::string seqName, int start, int end);
 std::string getSubsequence(std::map<std::string, Fasta>& sequences, std::string seqName, int start, int end, STRAND strand);
 //take the path of a sdi file as input and return a HashMap of sdi records
-void readSdiFile (const std::string& filePath, std::map<std::string, std::vector<Variant> >& variantsMap);
-void readSdiFile (const std::string& filePath, std::map<std::string, std::vector<Variant> >& variantsMap, const std::string& chromosome);
+void readSdiFile (const std::string& filePath, std::map<std::string, std::vector<Variant> >& variantsMap, std::string & vcfFix);
+void readSdiFile (const std::string& filePath, std::map<std::string, std::vector<Variant> >& variantsMap, const std::string& chromosome, std::string & vcfFix);
 void readGffFile (const std::string& filePath, std::map<std::string, std::vector<Transcript> >& transcriptHashSet, std::string& cdsParentRegex);
 int getChangedFromBasement(std::string chromosomeName, int basement, std::map<std::string, std::vector<Variant> >& variantsMap);
 

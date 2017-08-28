@@ -26,7 +26,6 @@
 #include <regex>
 #include "myutil.h"
 #include <sys/stat.h>
-#include <unistd.h>
 
 std::vector<std::string> &split(const std::string &s, char delim,std::vector<std::string> &elems) {
     std::stringstream ss(s);
@@ -156,10 +155,10 @@ std::string getSubsequence(std::map<std::string, Fasta>& sequences, std::string 
     }
     return "";
 }
-void readSdiFile(const std::string& filePath, std::map<std::string, std::vector<Variant> >& variantsMap){
-    readSdiFile(filePath, variantsMap, "" );
+void readSdiFile(const std::string& filePath, std::map<std::string, std::vector<Variant> >& variantsMap, std::string& vcfFix){
+    readSdiFile(filePath, variantsMap, "", vcfFix);
 }
-void readSdiFile (const std::string& filePath, std::map<std::string, std::vector<Variant> >& variantsMap, const std::string& chromosome){
+void readSdiFile (const std::string& filePath, std::map<std::string, std::vector<Variant> >& variantsMap, const std::string& chromosome, std::string& vcfFix){
     std::ifstream infile(filePath);
     if( ! infile.good()){
         std::cerr << "error in opening variants file " << filePath << std::endl;
@@ -188,7 +187,12 @@ void readSdiFile (const std::string& filePath, std::map<std::string, std::vector
         std::vector<std::string> splits = split(line, '\t');
         if( splits.size() >=5 ){
   //          std::cout << line << std::endl;
-            std::string chromosome = splits[0];
+            std::string chromosome;
+            if( vcfFix.length()>0 ){
+                chromosome = vcfFix + splits[0];
+            }else{
+                chromosome = splits[0];
+            }
             int position = std::stoi(splits[1]);
             std::string reference = splits[3];
             std::string alternative = splits[4];
@@ -215,9 +219,10 @@ void readSdiFile (const std::string& filePath, std::map<std::string, std::vector
 //            variantsMap[chromosome].push_back(variant);
 //        }
     }
-    //std::cout << "164" << std::endl;
+    std::cout << "Chromosomes in the vcf/sdi file:" << std::endl;
     for(std::map<std::string, std::vector<Variant> >::iterator it=variantsMap.begin(); it!=variantsMap.end(); ++it){
         int lastTotalChanged=0;
+        std::cout << it->first << std::endl;
         for( std::vector<Variant>::iterator it2=(*it).second.begin(); it2!=(*it).second.end(); it2++ ){
             (*it2).setLastTotalChanged(lastTotalChanged);
             lastTotalChanged +=(*it2).getChanginglength();
@@ -567,46 +572,46 @@ bool checkSpliceSites( std::string& s1t, std::string& s2t, NucleotideCodeSubstit
 // TG-AG, GT-TG, AT-AG, TC-AG, GT-AC, CC-AG, TT-AG,
 // GT-AA, AA-AG, GT-AT, GT-GC, AC-AG, AG-AG, CT-AT, GT-CC,
 // GA-CT, GT-CT, GT-GA, CC-GC, GG-GT, GT-GT, GT-TC, CT-TT, and GT-TT.
-    dornors.push_back("GT");    acceptors.push_back("AG");
-    dornors.push_back("GC");    acceptors.push_back("AG");
-    dornors.push_back("CT");    acceptors.push_back("AG");
-    dornors.push_back("GG");    acceptors.push_back("AG");
-    dornors.push_back("GA");    acceptors.push_back("AG");
-    dornors.push_back("CA");    acceptors.push_back("AG");
-    dornors.push_back("GT");    acceptors.push_back("CG");
-    dornors.push_back("GT");    acceptors.push_back("GG");
-    dornors.push_back("TG");    acceptors.push_back("AG");
-    dornors.push_back("GT");    acceptors.push_back("TG");
-    dornors.push_back("AT");    acceptors.push_back("AG");
-    dornors.push_back("TC");    acceptors.push_back("AG");
-    dornors.push_back("GT");    acceptors.push_back("AC");
-    dornors.push_back("CC");    acceptors.push_back("AG");
-    dornors.push_back("TT");    acceptors.push_back("AG");
-    dornors.push_back("GT");    acceptors.push_back("AA");
-    dornors.push_back("AA");    acceptors.push_back("AG");
-    dornors.push_back("GT");    acceptors.push_back("AT");
-    dornors.push_back("GT");    acceptors.push_back("GC");
-    dornors.push_back("AC");    acceptors.push_back("AG");
-    dornors.push_back("AG");    acceptors.push_back("AG");
-    dornors.push_back("CT");    acceptors.push_back("AT");
-    dornors.push_back("GT");    acceptors.push_back("CC");
-    dornors.push_back("GA");    acceptors.push_back("CT");
-    dornors.push_back("GT");    acceptors.push_back("CT");
-    dornors.push_back("GT");    acceptors.push_back("GA");
-    dornors.push_back("CC");    acceptors.push_back("GC");
-    dornors.push_back("GG");    acceptors.push_back("GT");
-    dornors.push_back("GT");    acceptors.push_back("GT");
-    dornors.push_back("GT");    acceptors.push_back("TC");
-    dornors.push_back("CT");    acceptors.push_back("TT");
-    dornors.push_back("GT");    acceptors.push_back("TT");
+    dornors.emplace_back("GT");    acceptors.emplace_back("AG");
+    dornors.emplace_back("GC");    acceptors.emplace_back("AG");
+    dornors.emplace_back("CT");    acceptors.emplace_back("AG");
+    dornors.emplace_back("GG");    acceptors.emplace_back("AG");
+    dornors.emplace_back("GA");    acceptors.emplace_back("AG");
+    dornors.emplace_back("CA");    acceptors.emplace_back("AG");
+    dornors.emplace_back("GT");    acceptors.emplace_back("CG");
+    dornors.emplace_back("GT");    acceptors.emplace_back("GG");
+    dornors.emplace_back("TG");    acceptors.emplace_back("AG");
+    dornors.emplace_back("GT");    acceptors.emplace_back("TG");
+    dornors.emplace_back("AT");    acceptors.emplace_back("AG");
+    dornors.emplace_back("TC");    acceptors.emplace_back("AG");
+    dornors.emplace_back("GT");    acceptors.emplace_back("AC");
+    dornors.emplace_back("CC");    acceptors.emplace_back("AG");
+    dornors.emplace_back("TT");    acceptors.emplace_back("AG");
+    dornors.emplace_back("GT");    acceptors.emplace_back("AA");
+    dornors.emplace_back("AA");    acceptors.emplace_back("AG");
+    dornors.emplace_back("GT");    acceptors.emplace_back("AT");
+    dornors.emplace_back("GT");    acceptors.emplace_back("GC");
+    dornors.emplace_back("AC");    acceptors.emplace_back("AG");
+    dornors.emplace_back("AG");    acceptors.emplace_back("AG");
+    dornors.emplace_back("CT");    acceptors.emplace_back("AT");
+    dornors.emplace_back("GT");    acceptors.emplace_back("CC");
+    dornors.emplace_back("GA");    acceptors.emplace_back("CT");
+    dornors.emplace_back("GT");    acceptors.emplace_back("CT");
+    dornors.emplace_back("GT");    acceptors.emplace_back("GA");
+    dornors.emplace_back("CC");    acceptors.emplace_back("GC");
+    dornors.emplace_back("GG");    acceptors.emplace_back("GT");
+    dornors.emplace_back("GT");    acceptors.emplace_back("GT");
+    dornors.emplace_back("GT");    acceptors.emplace_back("TC");
+    dornors.emplace_back("CT");    acceptors.emplace_back("TT");
+    dornors.emplace_back("GT");    acceptors.emplace_back("TT");
 
     //https://www.ncbi.nlm.nih.gov/pmc/articles/PMC84117/
-    dornors.push_back("AT");    acceptors.push_back("AC");
+    dornors.emplace_back("AT");    acceptors.emplace_back("AC");
     //https://www.ncbi.nlm.nih.gov/pmc/articles/PMC113136/
-    dornors.push_back("CT");    acceptors.push_back("GC");
+    dornors.emplace_back("CT");    acceptors.emplace_back("GC");
 
     //https://www.ncbi.nlm.nih.gov/pmc/articles/PMC84117/
-    dornors.push_back("AT");    acceptors.push_back("AA");
+    dornors.emplace_back("AT");    acceptors.emplace_back("AA");
 
 //tair10
     // dornors.push_back("GT");    acceptors.push_back("TA");

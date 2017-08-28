@@ -15,7 +15,7 @@
  *
  * =====================================================================================
  */
-#include <stdlib.h>
+#include <cstdlib>
 /*************************************************************************
 
 
@@ -25,11 +25,7 @@
 
 #include<iostream>
 #include<map>
-#include<string>
 #include "myfunctions.h"
-#include<vector>
-#include "model.h"
-#include "myutil.h"
 #include <fstream>
 #include <sstream>
 #include <regex>
@@ -116,21 +112,21 @@ int getPseudoGenomeSequence(std::map<std::string, Fasta>& referenceSequences, st
     return 0;
 }
 int getPseudoGenomeSequence(std::map<std::string, Fasta>& referenceSequences, std::string& sdiFile,
-                            std::map<std::string, Fasta>& targetSequences){
+                            std::map<std::string, Fasta>& targetSequences, std::string& vcfFix){
     std::map<std::string, std::vector<Variant> > sdiMaps;
-    readSdiFile(sdiFile, sdiMaps);
+    readSdiFile(sdiFile, sdiMaps, vcfFix);
     return getPseudoGenomeSequence(referenceSequences, sdiMaps, targetSequences);
 }
 int getPseudoGenomeSequence(std::string& referenceGenomeFastaFile,
-                            std::string& sdiFile, std::map<std::string, Fasta>& targetSequences){
+                            std::string& sdiFile, std::map<std::string, Fasta>& targetSequences, std::string& vcfFix){
     std::map<std::string, Fasta> referenceSequences;
     readFastaFile(referenceGenomeFastaFile, referenceSequences);
-    return getPseudoGenomeSequence(referenceSequences, sdiFile, targetSequences);
+    return getPseudoGenomeSequence(referenceSequences, sdiFile, targetSequences, vcfFix);
 }
 int getPseudoGenomeSequence(std::string& referenceGenomeFastaFile,
-                            std::string& sdiFile, std::string& outputFile){
+                            std::string& sdiFile, std::string& outputFile, std::string& vcfFix){
     std::map<std::string, Fasta> targetSequences;
-    int resultCode = getPseudoGenomeSequence(referenceGenomeFastaFile, sdiFile, targetSequences);
+    int resultCode = getPseudoGenomeSequence(referenceGenomeFastaFile, sdiFile, targetSequences, vcfFix);
     std::ofstream ofile;
     ofile.open(outputFile);
     for( std::map<std::string, Fasta>::iterator i=targetSequences.begin() ; i!= targetSequences.end(); i ++ ){
@@ -151,15 +147,15 @@ void writeFasta(std::ostream& out, std::string& seqname, std::string& sequence, 
     }
 }
 
-int myCoordinateLiftOver( std::string& sdiFile, std::string& chromosome, int& position ){
+int myCoordinateLiftOver( std::string& sdiFile, std::string& chromosome, int& position, std::string& vcfFix ){
     std::map<std::string, std::vector<Variant> > sdiMaps;
-    readSdiFile(sdiFile, sdiMaps);
+    readSdiFile(sdiFile, sdiMaps, vcfFix);
     return getChangedFromBasement( chromosome, position, sdiMaps );
 }
 
-void myGffCoordinateLiftOver( std::string& sdiFile, std::string& gffFile, std::string& outputFile  ){
+void myGffCoordinateLiftOver( std::string& sdiFile, std::string& gffFile, std::string& outputFile, std::string& vcfFix ){
     std::map<std::string, std::vector<Variant> > sdiMaps;
-    readSdiFile(sdiFile, sdiMaps);
+    readSdiFile(sdiFile, sdiMaps, vcfFix);
 
     std::ofstream ofile;
     ofile.open(outputFile);
@@ -167,7 +163,7 @@ void myGffCoordinateLiftOver( std::string& sdiFile, std::string& gffFile, std::s
 
     //std::regex reg("^([\\s\\S]+)$");
     std::regex reg("^([\\s\\S]*?)\t([\\s\\S]*?)\t([\\s\\S]*?)\t(\\S*?)\t(\\S*?)\t([\\s\\S]+)$");
-    std::string line="";
+    std::string line;
     while (std::getline(infile, line)){
         std::smatch match;
         regex_search(line, match, reg);
@@ -249,27 +245,27 @@ void getSequences(std::string& gffFile, std::string& genomeFile, std::string& ou
 }
 
 void myReAnnotationLiftoverSingleLine( std::string& referenceGenomeFile, std::string& inputGffFile, 
-        std::string& variantsFile, std::string& outputGffFile, std::string& regex, int &maxThread, std::string& regexG, int & lengthThread  ){
+        std::string& variantsFile, std::string& outputGffFile, std::string& regex, int &maxThread, std::string& regexG, int & lengthThread, std::string & vcfFix ){
     std::map<std::string, std::vector<Gene> > genes;
-    reAnnotationSingleLine( referenceGenomeFile, inputGffFile, variantsFile, genes, maxThread, regex, regexG, lengthThread );
+    reAnnotationSingleLine( referenceGenomeFile, inputGffFile, variantsFile, genes, maxThread, regex, regexG, lengthThread, vcfFix );
     hereOutPutLiftOrOrthologousResult(genes, outputGffFile);
 }
 
 void myReAnnotationLiftoverAndOrthologous( std::string& referenceGenomeFile, std::string& inputGffFile,
-                                       std::string& variantsFile, std::string& outputGffFile, std::string& regex, int &maxThread, std::string& regexG, int& lengthThread  ){
+                                       std::string& variantsFile, std::string& outputGffFile, std::string& regex, int &maxThread, std::string& regexG, int& lengthThread, std::string & vcfFix  ){
 
     std::map<std::string, std::vector<Gene> > genes;
-    reAnnotationAndExonerate( referenceGenomeFile, inputGffFile, variantsFile, genes, maxThread, regex, regexG, outputGffFile, lengthThread );
+    reAnnotationAndExonerate( referenceGenomeFile, inputGffFile, variantsFile, genes, maxThread, regex, regexG, outputGffFile, lengthThread, vcfFix );
 //    std::cout << "234" << std::endl;
     hereOutPutLiftOrOrthologousResult(genes, outputGffFile );
 }
 
-void myReAnnotationAndExonerateAndNovo( std::string& referenceGenomeFile, std::string& inputGffFile,std::string novoGffFilePath,
+void myReAnnotationAndExonerateAndNovo( std::string& referenceGenomeFile, std::string& inputGffFile,std::string& novoGffFilePath,
                                          std::string& variantsFile, std::string& outputGffFile, std::string& regex, int &maxThread,
-                                         std::string& regexG,std::string novoRegex, std::string& novoRegexG , int& lengthThread ){
+                                         std::string& regexG,std::string& novoRegex, std::string& novoRegexG , int& lengthThread, std::string & vcfFix){
 
     std::map<std::string, std::vector<Gene> > genes;
-    reAnnotationAndExonerateAndNovo( referenceGenomeFile, inputGffFile, novoGffFilePath, variantsFile, genes, maxThread, regex, regexG, novoRegex, novoRegexG, outputGffFile, lengthThread );
+    reAnnotationAndExonerateAndNovo( referenceGenomeFile, inputGffFile, novoGffFilePath, variantsFile, genes, maxThread, regex, regexG, novoRegex, novoRegexG, outputGffFile, lengthThread, vcfFix);
     hereOutPutLiftOrOrthologousResult(genes, outputGffFile );
 }
 
@@ -330,7 +326,7 @@ std::ostream &printSdi(std::ostream& out, const Variant& variant){
     return out;
 }
 
-bool caseInsensitiveStringCompare(const std::string str1, const std::string str2) {
+bool caseInsensitiveStringCompare(const std::string& str1, const std::string& str2) {
     if (str1.size() != str2.size()) {
         return false;
     }
@@ -342,7 +338,7 @@ bool caseInsensitiveStringCompare(const std::string str1, const std::string str2
     return true;
 }
 
-void countNumberOfTwoneighborSNP( std::string& sdiFile, std::string & outputPrefix, int & rangeLength){
+void countNumberOfTwoneighborSNP( std::string& sdiFile, std::string & outputPrefix, int & rangeLength, std::string& vcfFix){
 
     NucleotideCodeSubstitutionMatrix nucleotideCodeSubstitutionMatrix;
     std::set<std::string>& legalNasString = nucleotideCodeSubstitutionMatrix.getLegalNasString();
@@ -503,7 +499,7 @@ void countNumberOfTwoneighborSNP( std::string& sdiFile, std::string & outputPref
 
     std::map<std::string, std::vector<Variant> > sdiMaps;
     //std::cout << "495" <<std::endl;
-    readSdiFile(sdiFile, sdiMaps);
+    readSdiFile(sdiFile, sdiMaps, vcfFix);
     //std::cout << "497" <<std::endl;
     for( std::map<std::string, std::vector<Variant> >::iterator it=sdiMaps.begin();
             it!=sdiMaps.end(); ++it){
@@ -1512,12 +1508,12 @@ void countNumberOfTwoneighborSNP( std::string& sdiFile, std::string & outputPref
 }
 
 
-void countNumberSNPAndIndel( std::string& sdiFile, std::string & outputPrefix, int & rangeLength) {
+void countNumberSNPAndIndel( std::string& sdiFile, std::string & outputPrefix, int & rangeLength, std::string& vcfFix) {
 
     NucleotideCodeSubstitutionMatrix nucleotideCodeSubstitutionMatrix;
     std::set<std::string> &legalNasString = nucleotideCodeSubstitutionMatrix.getLegalNasString();
     std::map<std::string, std::vector<Variant> > sdiMaps;
-    readSdiFile(sdiFile, sdiMaps);
+    readSdiFile(sdiFile, sdiMaps, vcfFix);
 
     std::ofstream ofileallsnps;
     ofileallsnps.open(outputPrefix+".allsnps.sdi");
@@ -1647,7 +1643,7 @@ int ranDomItDeletion( Variant & obvervedVariant, std::map<std::string, std::vect
         if( variant.getChanginglength() <0 && variant.getPosition()-variant.getChanginglength() > chrSize+1  ){
             // if this is deletion and deletion is beyond the chromosome, it does not make sense, so avoid such records
         }else{
-            int hasOverLap = false;
+            bool hasOverLap = false;
             for( std::vector<Variant>::iterator it3=randomSdiMaps[chr].begin(); it3!=randomSdiMaps[chr].end(); ++it3 ){
                 // if the new record conflicts with any of the previous records, re-do position random
                 int start1 = it3->getPosition();
@@ -1694,7 +1690,7 @@ int ranDomItSnp( Variant & obvervedVariant, std::map<std::string, std::vector<Va
         if( variant.getChanginglength() <0 && variant.getPosition()-variant.getChanginglength() > chrSize+1  ){
             // if this is deletion and deletion is beyond the chromosome, it does not make sense, so avoid such records
         }else{
-            int hasOverLap = false;
+            bool hasOverLap = false;
             for( std::vector<Variant>::iterator it3=randomSdiMaps[chr].begin(); it3!=randomSdiMaps[chr].end(); ++it3 ){
                 // if the new record conflicts with any of the previous records, re-do position random
                 int start1 = it3->getPosition();
@@ -1743,7 +1739,7 @@ int ranDomItInsertion( Variant & obvervedVariant, std::map<std::string, std::vec
         if( variant.getChanginglength() <0 && variant.getPosition()-variant.getChanginglength() > chrSize+1  ){
             // if this is deletion and deletion is beyond the chromosome, it does not make sense, so avoid such records
         }else{
-            int hasOverLap = false;
+            bool hasOverLap = false;
             for( std::vector<Variant>::iterator it3=randomSdiMaps[chr].begin(); it3!=randomSdiMaps[chr].end(); ++it3 ){
                 // if the new record conflicts with any of the previous records, re-do position random
                 int start1 = it3->getPosition();
@@ -1794,7 +1790,7 @@ int ranDomIt( Variant & obvervedVariant, std::map<std::string, std::vector<Varia
         if( variant.getChanginglength() <0 && variant.getPosition()-variant.getChanginglength() > chrSize+1  ){
             // if this is deletion and deletion is beyond the chromosome, it does not make sense, so avoid such records
         }else{
-            int hasOverLap = false;
+            bool hasOverLap = false;
             for( std::vector<Variant>::iterator it3=randomSdiMaps[chr].begin(); it3!=randomSdiMaps[chr].end(); ++it3 ){
                 // if the new record conflicts with any of the previous records, re-do position random
                 int start1 = it3->getPosition();
@@ -1857,10 +1853,10 @@ int ranDomIt( Variant & obvervedVariant, std::map<std::string, std::vector<Varia
     return 0; // good
 }
 
-void generateRandomSdi( std::string& sdiFile, std::string& referenceGenomeFile, std::string & outputPrefix ){
+void generateRandomSdi( std::string& sdiFile, std::string& referenceGenomeFile, std::string & outputPrefix, std::string& vcfFix ){
 
     std::map<std::string, std::vector<Variant> > sdiMaps;
-    readSdiFile(sdiFile, sdiMaps);
+    readSdiFile(sdiFile, sdiMaps, vcfFix);
 
     std::map<std::string, Fasta> genome;
     readFastaFile(referenceGenomeFile, genome);

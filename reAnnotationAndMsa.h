@@ -31,8 +31,10 @@
 #include "myfunctions.h"
 #include <iostream>
 #include <atomic>
-void reAnnotationSingleLine( std::string& referenceGenomeFilePath, std::string referenceGffFilePath, std::string sdiFile,
-                             std::map<std::string, std::vector<Gene> >& genes, int maxThread, std::string& regex, std::string& regexG, int & lengthThread);
+#include <mutex>
+
+void reAnnotationSingleLine( std::string& referenceGenomeFilePath, std::string& referenceGffFilePath, std::string& sdiFile,
+                             std::map<std::string, std::vector<Gene> >& genes, int maxThread, std::string& regex, std::string& regexG, int & lengthThread, std::string & vcfFix);
 void reAnnotationSingleLine( std::map<std::string, std::vector<Transcript> >& referenceTranscriptHashSet,
                              std::map<std::string, Fasta>& referenceGenome, std::map<std::string, Transcript>& targetTranscriptsHashMap,
                              std::map<std::string, Fasta>& targetGenome, NucleotideCodeSubstitutionMatrix& nucleotideCodeSubstitutionMatrix,
@@ -54,10 +56,10 @@ void transcriptRealignmentAndExonerate( Transcript& tartgetTranscript, Transcrip
 
 
 void reAnnotationAndExonerate( std::string& referenceGenomeFilePath, std::string referenceGffFilePath, std::string sdiFile,
-                               std::map<std::string, std::vector<Gene> >& genes, int maxThread, std::string& regex, std::string& regexG, std::string & outputGffFile, int & lengthThreadre);
+                               std::map<std::string, std::vector<Gene> >& genes, int maxThread, std::string& regex, std::string& regexG, std::string & outputGffFile, int & lengthThreadre, std::string & vcfFix);
 void reAnnotationAndExonerateAndNovo( std::string& referenceGenomeFilePath, std::string referenceGffFilePath, std::string novoGffFilePath, std::string sdiFile,
                                        std::map<std::string, std::vector<Gene> >& genes, int maxThread, std::string& regex, std::string& regexG,
-                                       std::string novoRegex, std::string& novoRegexG, std::string & outputGffFile, int & lengthThread);
+                                       std::string novoRegex, std::string& novoRegexG, std::string & outputGffFile, int & lengthThread, std::string & vcfFix);
 void runExonerateEst(std::string& transcriptName, std::string& cdsSequence, std::string& targetSequence,
                      NucleotideCodeSubstitutionMatrix& nucleotideCodeSubstitutionMatrix,
                      std::map<std::string, Transcript>& targetTranscriptsHashMap, int& startTarget, int& endTarget,

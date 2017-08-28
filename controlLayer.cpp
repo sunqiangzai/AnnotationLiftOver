@@ -25,7 +25,6 @@
 
 #include <iostream>
 #include "InputParser.h"
-#include <string>
 #include <sstream>
 #include "myfunctions.h"
 int getGenomeSequence(int argc, char** argv){
@@ -35,15 +34,20 @@ int getGenomeSequence(int argc, char** argv){
         "   -h        produce help message" << std::endl <<
         "   -r        reference genome in fasta format" << std::endl <<
         "   -v        variant calling result in vcf/sdi format" << std::endl <<
+        "   -prefix   prefix for vcf records" << std::endl <<
         "   -o        the output pseudo genome sequence in fasta format" << std::endl;
     InputParser inputParser (argc, argv);
+    std::string vcfFix = "";
+    if( inputParser.cmdOptionExists("-prefix")){
+        vcfFix = inputParser.getCmdOption("-prefix");
+    }
     if(inputParser.cmdOptionExists("-h") ||inputParser.cmdOptionExists("--help")  ){
         std::cerr << usage.str();
     }else if( inputParser.cmdOptionExists("-r") && inputParser.cmdOptionExists("-v") && inputParser.cmdOptionExists("-o")  ){
         std::string reference = inputParser.getCmdOption("-r");
         std::string variants = inputParser.getCmdOption("-v");
         std::string output = inputParser.getCmdOption("-o");
-        getPseudoGenomeSequence(reference, variants, output);
+        getPseudoGenomeSequence(reference, variants, output, vcfFix);
         return 0;
     }else{
         std::cerr << usage.str();
@@ -57,9 +61,14 @@ int coordinateLiftOver( int argc, char** argv ){
         "Options" << std::endl <<
         "   -h        produce help message" << std::endl <<
         "   -v        variant calling result in vcf/sdi format" << std::endl <<
+        "   -prefix   prefix for vcf records" << std::endl <<
         "   -c        chromosome, should be consistent with the chromosome information in sdi file (The coordinate starts from 1)" << std::endl <<
         "   -p        the position/coordinate in reference genome" <<std::endl;
     InputParser inputParser (argc, argv);
+    std::string vcfFix = "";
+    if( inputParser.cmdOptionExists("-prefix")){
+        vcfFix = inputParser.getCmdOption("-prefix");
+    }
     if(inputParser.cmdOptionExists("-h") ||inputParser.cmdOptionExists("--help")  ){
         std::cerr << usage.str();
     }else if( inputParser.cmdOptionExists("-v") && inputParser.cmdOptionExists("-c") && inputParser.cmdOptionExists("-p")  ){
@@ -67,7 +76,7 @@ int coordinateLiftOver( int argc, char** argv ){
         std::string chromosome = inputParser.getCmdOption("-c");
         std::string coordinateS = inputParser.getCmdOption("-p");
         int coordinate = std::stoi(coordinateS);
-        int liftCoordinate = myCoordinateLiftOver( variantsFile, chromosome, coordinate  );
+        int liftCoordinate = myCoordinateLiftOver( variantsFile, chromosome, coordinate, vcfFix );
         std::cout << chromosome << " " << liftCoordinate << std::endl;
         return 0;
     }else{
@@ -83,15 +92,20 @@ int gffCoordinateLiftOver( int argc, char** argv  ){
         "   -h        produce help message" << std::endl <<
         "   -v        variant calling result in vcf/sdi format" << std::endl <<
         "   -i        the input GFF/GTF file of reference line/accession" << std::endl <<
+        "   -prefix   prefix for vcf records" << std::endl <<
         "   -o        the output GFF/GTF file of target line/accession" << std::endl;
     InputParser inputParser (argc, argv);
+    std::string vcfFix = "";
+    if( inputParser.cmdOptionExists("-prefix")){
+        vcfFix = inputParser.getCmdOption("-prefix");
+    }
     if(inputParser.cmdOptionExists("-h") ||inputParser.cmdOptionExists("--help")  ){
         std::cerr << usage.str();
     }else if( inputParser.cmdOptionExists("-v") && inputParser.cmdOptionExists("-i") && inputParser.cmdOptionExists("-o")   ){
         std::string variantsFile = inputParser.getCmdOption("-v");
         std::string inputGff = inputParser.getCmdOption("-i");
         std::string outputGff = inputParser.getCmdOption("-o");
-        myGffCoordinateLiftOver(variantsFile, inputGff, outputGff);
+        myGffCoordinateLiftOver(variantsFile, inputGff, outputGff, vcfFix);
         return 0;
     }else{
         std::cerr << usage.str();
@@ -141,12 +155,17 @@ int annotationLiftOver( int argc, char** argv ){
         "   -v        variant calling result in vcf/sdi format" << std::endl <<
         "   -o        the output GFF/GTF file of target line/accession" << std::endl <<
         "   -x        default: ([\\s\\S]*)Parent=([\\s\\S]*?)[;,][\\s\\S]*$  it works for parese the TAIR10 annotation" << std::endl<<
-        "                 regex to parser the structure of CDS elements and parent transcript in GFF/GTF file" << std::endl <<
+        "             regex to parser the structure of CDS elements and parent transcript in GFF/GTF file" << std::endl <<
+        "   -prefix   prefix for fasta records" << std::endl <<
         "   -g        default: (.+?)\\\\.   it works for parese the TAIR10 annotation" << std::endl <<
         "             regex to parser the parent gene id from transcript id"  << std::endl <<
         "   -t        (int) number of threads, default: 4 "<< std::endl <<
         "   -l        (int) if sequence is longer than this threshold would be aligned, for RAM and time saving porpose  "<< std::endl;
     InputParser inputParser (argc, argv);
+    std::string vcfFix = "";
+    if( inputParser.cmdOptionExists("-prefix")){
+        vcfFix = inputParser.getCmdOption("-prefix");
+    }
     if(inputParser.cmdOptionExists("-h") ||inputParser.cmdOptionExists("--help")  ){
         std::cerr << usage.str();
         return 1;
@@ -180,7 +199,7 @@ int annotationLiftOver( int argc, char** argv ){
             lengthThread=100000;
         }
         myReAnnotationLiftoverSingleLine( referenceGenomeSequence, inputGffFile, variants,
-                                          outputGffFile, regex, threads, regexG, lengthThread );
+                                          outputGffFile, regex, threads, regexG, lengthThread, vcfFix );
         return 0;
     } else{
         std::cerr << usage.str();
@@ -199,11 +218,16 @@ int annotationLiftOverAndOrth( int argc, char** argv ){
           "   -o        the output GFF/GTF file of target line/accession" << std::endl <<
           "   -x        default: ([\\s\\S]*)Parent=([\\s\\S]*?)[;,][\\s\\S]*$  it works for parese the TAIR10 annotation" << std::endl<<
           "                 regex to parser the structure of CDS elements and parent transcript in GFF/GTF file" << std::endl <<
+          "   -prefix   prefix for fasta records" << std::endl <<
           "   -g        default: (.+?)\\\\.   it works for parese the TAIR10 annotation" << std::endl <<
           "             regex to parser the parent gene id from transcript id"  << std::endl <<
           "   -t        (int) number of threads, default: 4 "<< std::endl <<
           "   -l        (int) if sequence is longer than this threshold would be aligned, for RAM and time saving porpose  "<< std::endl;
     InputParser inputParser (argc, argv);
+    std::string vcfFix = "";
+    if( inputParser.cmdOptionExists("-prefix")){
+        vcfFix = inputParser.getCmdOption("-prefix");
+    }
     if(inputParser.cmdOptionExists("-h") ||inputParser.cmdOptionExists("--help")  ){
         std::cerr << usage.str();
         return 1;
@@ -237,7 +261,7 @@ int annotationLiftOverAndOrth( int argc, char** argv ){
             lengthThread=30000;
         }
         myReAnnotationLiftoverAndOrthologous( referenceGenomeSequence, inputGffFile, variants,
-                                          outputGffFile, regex, threads, regexG , lengthThread);
+                                          outputGffFile, regex, threads, regexG, lengthThread, vcfFix);
         return 0;
     } else{
         std::cerr << usage.str();
@@ -257,16 +281,21 @@ int reAnnotationAndExonerateAndNovo( int argc, char** argv ){
           "   -v        variant calling result in vcf/sdi format" << std::endl <<
           "   -o        the output GFF/GTF file of target line/accession" << std::endl <<
           "   -x        default: ([\\s\\S]*)Parent=([\\s\\S]*?)[;,][\\s\\S]*$  it works for parese the TAIR10 annotation" << std::endl<<
-          "                 regex to parser the structure of CDS elements and parent transcript in GFF/GTF file" << std::endl <<
+          "             regex to parser the structure of CDS elements and parent transcript in GFF/GTF file" << std::endl <<
           "   -g        default: ([\\s\\S]+?)\\\\.   it works for parese the TAIR10 annotation" << std::endl <<
           "             regex to parser the parent gene id from transcript id"  << std::endl <<
-          "   -nx        default: ID=([\\s\\S]*?);Parent=([\\s\\S]*?)$  it works for parese the output of AUGUSTUS" << std::endl<<
-          "                 regex to parser the structure of CDS elements and parent transcript in de novo GFF/GTF file" << std::endl <<
-          "   -ng        default: ([\\s\\S]+?)\\\\.   it works for parese the output of AUGUSTUS" << std::endl <<
+          "   -nx       default: ID=([\\s\\S]*?);Parent=([\\s\\S]*?)$  it works for parese the output of AUGUSTUS" << std::endl<<
+          "             regex to parser the structure of CDS elements and parent transcript in de novo GFF/GTF file" << std::endl <<
+          "   -ng       default: ([\\s\\S]+?)\\\\.   it works for parese the output of AUGUSTUS" << std::endl <<
           "             regex to parser the parent gene id from transcript id"  << std::endl <<
+          "   -prefix   prefix for fasta records" << std::endl <<
           "   -t        (int) number of threads, default: 4 "<< std::endl <<
           "   -l        (int) if sequence is longer than this threshold would be aligned, for RAM and time saving purpose  "<< std::endl;
     InputParser inputParser (argc, argv);
+    std::string vcfFix = "";
+    if( inputParser.cmdOptionExists("-prefix")){
+        vcfFix = inputParser.getCmdOption("-prefix");
+    }
     if(inputParser.cmdOptionExists("-h") ||inputParser.cmdOptionExists("--help")  ){
         std::cerr << usage.str();
         return 1;
@@ -314,13 +343,12 @@ int reAnnotationAndExonerateAndNovo( int argc, char** argv ){
         }
         myReAnnotationAndExonerateAndNovo( referenceGenomeSequence, inputGffFile, novoGffFilePath,
                                             variants, outputGffFile, regex, threads,
-                                            regexG, novoRegex, novoRegexG , lengthThread);
+                                            regexG, novoRegex, novoRegexG, lengthThread, vcfFix);
         return 0;
     } else{
         std::cerr << usage.str();
         return 1;
     }
-    return 1;
 }
 
 int myCountNumberOfTwoneighborSNP( int argc, char** argv  ){
@@ -331,6 +359,7 @@ int myCountNumberOfTwoneighborSNP( int argc, char** argv  ){
         "   -l        (int) number of bases in which range there should be no variants for double SNP" << std::endl <<
         "   -o        prefix of output file" <<std::endl;
     InputParser inputParser (argc, argv);
+    std::string vcfFix = "";
     if(inputParser.cmdOptionExists("-h") ||inputParser.cmdOptionExists("--help")  ){
         std::cerr << usage.str();
         return 1;
@@ -343,7 +372,7 @@ int myCountNumberOfTwoneighborSNP( int argc, char** argv  ){
         }else{
             rangeLength = 3;
         }
-        countNumberOfTwoneighborSNP(variants, outputPrefix, rangeLength);
+        countNumberOfTwoneighborSNP(variants, outputPrefix, rangeLength, vcfFix);
         return 0;
     }else {
         std::cerr << usage.str();
@@ -360,6 +389,7 @@ int mycountNumberSNPAndIndel( int argc, char** argv  ){
           "   -l        (int) number of bases in which range there should be no INDEL" << std::endl <<
           "   -o        prefix of output file" <<std::endl;
     InputParser inputParser (argc, argv);
+    std::string vcfFix = "";
     if(inputParser.cmdOptionExists("-h") ||inputParser.cmdOptionExists("--help")  ){
         std::cerr << usage.str();
         return 1;
@@ -372,7 +402,7 @@ int mycountNumberSNPAndIndel( int argc, char** argv  ){
         }else{
             rangeLength = 3;
         }
-        countNumberSNPAndIndel(variants, outputPrefix, rangeLength);
+        countNumberSNPAndIndel(variants, outputPrefix, rangeLength, vcfFix);
         return 0;
     }else {
         std::cerr << usage.str();
@@ -388,6 +418,7 @@ int myGenerateRandomSdi( int argc, char** argv  ){
           "   -r        reference genome in fasta format" << std::endl <<
           "   -o        prefix of output file" <<std::endl;
     InputParser inputParser (argc, argv);
+    std::string vcfFix = "";
     if(inputParser.cmdOptionExists("-h") ||inputParser.cmdOptionExists("--help")  ){
         std::cerr << usage.str();
         return 1;
@@ -395,7 +426,7 @@ int myGenerateRandomSdi( int argc, char** argv  ){
         std::string variants = inputParser.getCmdOption("-v");
         std::string outputPrefix = inputParser.getCmdOption("-o");
         std::string reference = inputParser.getCmdOption("-r");
-        generateRandomSdi(variants, reference, outputPrefix);
+        generateRandomSdi(variants, reference, outputPrefix, vcfFix);
         return 0;
     }else {
         std::cerr << usage.str();

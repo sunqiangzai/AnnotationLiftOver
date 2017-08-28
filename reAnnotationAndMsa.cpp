@@ -23,8 +23,7 @@
 #include <sstream>
 #include "parameters.h"
 #include <regex>
-#include <mutex>
-#include <chrono>
+
 std::mutex gmutex;
 
 
@@ -68,9 +67,9 @@ void TranscriptsTogenes(std::string& regexG, std::map<std::string, std::vector<G
 //    std::cerr << "125" << std::endl;
 }
 
-
-void reAnnotationSingleLine( std::string& referenceGenomeFilePath, std::string referenceGffFilePath, std::string sdiFile,
-                    std::map<std::string, std::vector<Gene> >& genes, int maxThread, std::string& regex, std::string& regexG, int & lengthThread){
+void reAnnotationSingleLine( std::string& referenceGenomeFilePath, std::string& referenceGffFilePath, std::string& sdiFile,
+                    std::map<std::string, std::vector<Gene> >& genes, int maxThread, std::string& regex, std::string& regexG,
+                     int & lengthThread, std::string & vcfFix){
 
     NucleotideCodeSubstitutionMatrix nucleotideCodeSubstitutionMatrix;
     std::map<std::string, Fasta> referenceGenome;
@@ -78,9 +77,9 @@ void reAnnotationSingleLine( std::string& referenceGenomeFilePath, std::string r
     readFastaFile(referenceGenomeFilePath, referenceGenome);
     readGffFile (referenceGffFilePath, referenceTranscriptHashSet, regex);
     std::map<std::string, std::vector<Variant> > variantsMaps;
-    readSdiFile (sdiFile,  variantsMaps);
+    readSdiFile (sdiFile,  variantsMaps, vcfFix);
     std::map<std::string, Fasta> targetGenome;
-    getPseudoGenomeSequence(referenceGenome, variantsMaps, targetGenome);
+    getPseudoGenomeSequence(referenceGenome, variantsMaps, targetGenome, vcfFix);
     std::map<std::string, Transcript> targetTranscriptsHashMap;// transcriptName Transcript
     annotationLiftOver( referenceTranscriptHashSet, targetTranscriptsHashMap, variantsMaps, targetGenome, referenceGenome);
 //    std::map<std::string, Transcript > referenceTranscriptHashMap; // transcriptName Transcript
@@ -159,7 +158,6 @@ void reAnnotationAndMsa( std::string& referenceGenomeFilePath, std::string refer
                 }
 
                 std::map<std::string, Fasta> targetGenome;
-                std::string chromosomeName = it1->first;
                 getPseudoGenomeSequence(referenceGenome, variantsTMaps, targetGenome, chromosomeName);
                 if( targetGenome.find(chromosomeName)!=targetGenome.end() ){
                     accessionsTargetSequences[chromosomeName]=targetGenome.begin()->second;
@@ -363,7 +361,7 @@ void transcriptRealignment( Transcript& tartgetTranscript, Transcript& reference
 //}
 
 void reAnnotationAndExonerate( std::string& referenceGenomeFilePath, std::string referenceGffFilePath, std::string sdiFile,
-                             std::map<std::string, std::vector<Gene> >& genes, int maxThread, std::string& regex, std::string& regexG, std::string & outputGffFile, int & lengthThread){
+                             std::map<std::string, std::vector<Gene> >& genes, int maxThread, std::string& regex, std::string& regexG, std::string & outputGffFile, int & lengthThread, std::string & vcfFix){
 
     NucleotideCodeSubstitutionMatrix nucleotideCodeSubstitutionMatrix;
     std::map<std::string, Fasta> referenceGenome;
@@ -395,7 +393,7 @@ void reAnnotationAndExonerate( std::string& referenceGenomeFilePath, std::string
     }
 
     std::map<std::string, std::vector<Variant> > variantsMaps;
-    readSdiFile (sdiFile, variantsMaps);
+    readSdiFile (sdiFile, variantsMaps, vcfFix);
     std::map<std::string, Fasta> targetGenome;
     getPseudoGenomeSequence(referenceGenome, variantsMaps, targetGenome);
     std::map<std::string, Transcript> targetTranscriptsHashMap;// transcriptName Transcript
@@ -439,7 +437,8 @@ void reAnnotationAndExonerate( std::string& referenceGenomeFilePath, std::string
 }
 
 void reAnnotationAndExonerateAndNovo( std::string& referenceGenomeFilePath, std::string referenceGffFilePath, std::string novoGffFilePath, std::string sdiFile,
-                               std::map<std::string, std::vector<Gene> >& genes, int maxThread, std::string& regex, std::string& regexG, std::string novoRegex, std::string& novoRegexG, std::string & outputGffFile, int & lengthThread){
+                               std::map<std::string, std::vector<Gene> >& genes, int maxThread, std::string& regex, std::string& regexG, std::string novoRegex,
+                               std::string& novoRegexG, std::string & outputGffFile, int & lengthThread, std::string & vcfFix){
 
     NucleotideCodeSubstitutionMatrix nucleotideCodeSubstitutionMatrix;
     std::map<std::string, Fasta> referenceGenome;
@@ -471,7 +470,7 @@ void reAnnotationAndExonerateAndNovo( std::string& referenceGenomeFilePath, std:
     }
 
     std::map<std::string, std::vector<Variant> > variantsMaps;
-    readSdiFile (sdiFile, variantsMaps);
+    readSdiFile (sdiFile, variantsMaps, vcfFix);
     std::map<std::string, Fasta> targetGenome;
     getPseudoGenomeSequence(referenceGenome, variantsMaps, targetGenome);
     std::map<std::string, Transcript> targetTranscriptsHashMap;// transcriptName Transcript
@@ -749,7 +748,6 @@ void transcriptRealignmentAndExonerate( Transcript& tartgetTranscript, Transcrip
         }
     }
     --number_of_runing_threads;
-    return;
 }
 
 void runExonerateEst(std::string& transcriptName, std::string& cdsSequence, std::string& targetSequence,
@@ -792,7 +790,6 @@ void runExonerateEst(std::string& transcriptName, std::string& cdsSequence, std:
     }catch (...){
         return;
     }
-    return;
 }
 
 
@@ -810,7 +807,7 @@ void readExonerateEstResult( std::string& transcriptName, std::string& cdsSequen
     if( POSITIVE ==strand ){
         std::ifstream infile2(fileLocation);
         std::regex reg2("^(target)\\t(\\S*)\\texon\\t(\\S*)\\t(\\S*)\\t(\\S*)\\t\\+");
-        std::string line2="";
+        std::string line2;
         while (std::getline(infile2, line2)){
             std::smatch match;
             regex_search(line2, match, reg2);
@@ -835,7 +832,7 @@ void readExonerateEstResult( std::string& transcriptName, std::string& cdsSequen
     }else{
         std::ifstream infile2(fileLocation);
         std::regex reg2("^(target)\\t(\\S*)\\texon\\t(\\S*)\\t(\\S*)\\t(\\S*)\\t\\-");
-        std::string line2="";
+        std::string line2;
         while (std::getline(infile2, line2)){
             std::smatch match;
             regex_search(line2, match, reg2);
@@ -858,7 +855,7 @@ void readExonerateEstResult( std::string& transcriptName, std::string& cdsSequen
         }
         infile2.close();
     }
-    if( cdsNumber > 0 && targetTranscript.getCdsVector().size() > 0 ){
+    if( cdsNumber > 0 && !targetTranscript.getCdsVector().empty() ){
 //        std::cout << transcriptName << " exonerate est updateInfor begin" << std::endl;
 
         targetTranscript.updateInfor(targetGenome);
@@ -894,7 +891,6 @@ void readExonerateEstResult( std::string& transcriptName, std::string& cdsSequen
                             targetTranscriptsHashMap, startTarget, endTarget,
                             strand, tchromeSomeName, fileLocation, targetGenome );
     }
-    return;
 }
 
 void runExonerateProtein(std::string& transcriptName, std::string& protenSequene, std::string& targetSequence,
@@ -918,7 +914,6 @@ void runExonerateProtein(std::string& transcriptName, std::string& protenSequene
     system(&cleanFileCommand[0]);
     cleanFileCommand = "rm " + tempFile;
     system(&cleanFileCommand[0]);
-    return;
 }
 
 void readExonerateProteinResult( std::string& fileLocation, NucleotideCodeSubstitutionMatrix& nucleotideCodeSubstitutionMatrix,
@@ -934,7 +929,7 @@ void readExonerateProteinResult( std::string& fileLocation, NucleotideCodeSubsti
     if( POSITIVE ==strand ){
         std::ifstream infile(fileLocation);
         std::regex reg("^(target)\t([\\s\\S]*)\tcds\t(\\S*)\t(\\S*)\t(\\S*)\t\\+");
-        std::string line="";
+        std::string line;
         while (std::getline(infile, line)){
             std::smatch match;
             regex_search(line, match, reg);
@@ -960,7 +955,7 @@ void readExonerateProteinResult( std::string& fileLocation, NucleotideCodeSubsti
     }else {
         std::ifstream infile(fileLocation);
         std::regex reg("^(target)\t([\\s\\S]*)\tcds\t(\\S*)\t(\\S*)\t(\\S*)\t\\-");
-        std::string line="";
+        std::string line;
         while (std::getline(infile, line)){
             std::smatch match;
             regex_search(line, match, reg);
@@ -983,7 +978,7 @@ void readExonerateProteinResult( std::string& fileLocation, NucleotideCodeSubsti
         }
         infile.close();
     }
-    if( cdsNumber > 0 && targetTranscript.getCdsVector().size() > 0 ) {
+    if( cdsNumber > 0 && !targetTranscript.getCdsVector().empty() ) {
         targetTranscript.updateInfor(targetGenome);
         checkOrfState(targetTranscript, targetGenome, nucleotideCodeSubstitutionMatrix);
         if (!targetTranscript.getIfOrfShift()) {
@@ -999,7 +994,6 @@ void readExonerateProteinResult( std::string& fileLocation, NucleotideCodeSubsti
 //            }
 //        }
     }
-    return;
 }
 
 void readAugustusGff( std::string& fileLocation ){
@@ -1027,8 +1021,9 @@ void readAugustusGff( std::string& fileLocation ){
 
 
 
-void reAnnotationAndExonerate2( std::string& referenceGenomeFilePath, std::string referenceGffFilePath, std::string sdiFile,
-                               std::map<std::string, std::vector<Gene> >& genes, int maxThread, std::string& regex, std::string& regexG, std::string& outputGffFile, int & lengthThread){
+void reAnnotationAndExonerate2( std::string& referenceGenomeFilePath, std::string& referenceGffFilePath, std::string& sdiFile,
+                               std::map<std::string, std::vector<Gene> >& genes, int maxThread, std::string& regex,
+                                std::string& regexG, std::string& outputGffFile, int & lengthThread, std::string & vcfFix){
     NucleotideCodeSubstitutionMatrix nucleotideCodeSubstitutionMatrix;
     std::map<std::string, Fasta> referenceGenome;
     std::map<std::string, std::vector<Transcript> > referenceTranscriptHashSet;
@@ -1036,7 +1031,7 @@ void reAnnotationAndExonerate2( std::string& referenceGenomeFilePath, std::strin
     readGffFile (referenceGffFilePath, referenceTranscriptHashSet, regex);
 
     std::map<std::string, std::vector<Variant> > variantsMaps;
-    readSdiFile (sdiFile, variantsMaps);
+    readSdiFile (sdiFile, variantsMaps, vcfFix);
     std::map<std::string, Fasta> targetGenome;
     getPseudoGenomeSequence(referenceGenome, variantsMaps, targetGenome);
     std::map<std::string, Transcript> targetTranscriptsHashMap;// transcriptName Transcript
@@ -1294,7 +1289,7 @@ void readExonerateEstResult2( std::string& transcriptName, std::string& cdsSeque
         std::ifstream infile2(fileLocation);
 
         std::regex reg2("^(\\S*)\\t([\\s\\S]*)\\texon\\t(\\S*)\\t(\\S*)\\t(\\S*)\\t\\+");
-        std::string line2="";
+        std::string line2;
         while (std::getline(infile2, line2)){
             std::smatch match;
             regex_search(line2, match, reg2);
@@ -1328,7 +1323,7 @@ void readExonerateEstResult2( std::string& transcriptName, std::string& cdsSeque
 
         std::ifstream infile2(fileLocation);
         std::regex reg2("^(\\S*)\\t([\\s\\S]*)\\texon\\t(\\S*)\\t(\\S*)\\t(\\S*)\\t\\-");
-        std::string line2="";
+        std::string line2;
         while (std::getline(infile2, line2)){
             std::smatch match;
             regex_search(line2, match, reg2);
@@ -1375,7 +1370,7 @@ void readExonerateProteinResult2( std::string& fileLocation, NucleotideCodeSubst
     std::ifstream infile(fileLocation);
     std::regex reg("^\\s*\\d+\\s*:\\s*([\\w\\.\\s\\>-\\{\\}\\*]+)\\s*:\\s*\\d+\\s*$");
     std::stringstream sequencestream;
-    std::string line="";
+    std::string line;
     int lineNumber = 0;
     while ( std::getline(infile, line) ){
         std::smatch match;
@@ -1449,7 +1444,7 @@ void readExonerateProteinResult2( std::string& fileLocation, NucleotideCodeSubst
 
         std::ifstream infile(fileLocation);
         std::regex reg("^(\\S*)\t([\\s\\S]*)\tcds\t(\\S*)\t(\\S*)\t(\\S*)\t\\+");
-        std::string line="";
+        std::string line;
         while (std::getline(infile, line)){
             std::smatch match;
             regex_search(line, match, reg);
@@ -1485,7 +1480,7 @@ void readExonerateProteinResult2( std::string& fileLocation, NucleotideCodeSubst
 
         std::ifstream infile(fileLocation);
         std::regex reg("^(\\S*)\t([\\s\\S]*)\tcds\t(\\S*)\t(\\S*)\t(\\S*)\t\\-");
-        std::string line="";
+        std::string line;
         while (std::getline(infile, line)){
             std::smatch match;
             regex_search(line, match, reg);
@@ -1511,15 +1506,14 @@ void readExonerateProteinResult2( std::string& fileLocation, NucleotideCodeSubst
         targetTranscriptsHashMap[transcriptName]=targetTranscript;
         gmutex.unlock();
     }
-    return;
 }
 
 
 
 
 //for MSA begin
-void songPopulationMsa( std::string referenceGenomeFilePath, std::string referenceGffFilePath, std::string accessionIdList,
-    std::string targetSdiPath, std::string targetGffPath, int windownsSize, int overlapSize, std::string& regex){
+void songPopulationMsa( std::string& referenceGenomeFilePath, std::string& referenceGffFilePath, std::string& accessionIdList,
+    std::string& targetSdiPath, std::string& targetGffPath, int& windownsSize, int& overlapSize, std::string& regex){
 
     std::map<std::string, Fasta> referenceGenome;
     std::map<std::string, std::vector<Transcript> > referenceTranscriptHashSet;
