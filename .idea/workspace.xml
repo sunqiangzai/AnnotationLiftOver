@@ -40,16 +40,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4736a4aa-8705-45bd-ba0e-65c915f8f81a" name="Default" comment="change makefile to Cmake">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/geneStructureBasedRealignment" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CMakeCache.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/geneStructureBasedRealignment.cbp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnnotationLiftOver" afterPath="" />
+    <list default="true" id="4736a4aa-8705-45bd-ba0e-65c915f8f81a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Makefile" afterPath="$PROJECT_DIR$/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myutil.cpp" afterPath="$PROJECT_DIR$/myutil.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reAnnotationAndMsa.cpp" afterPath="$PROJECT_DIR$/reAnnotationAndMsa.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
@@ -72,8 +64,8 @@
       <file leaf-file-name="reAnnotationAndMsa.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/reAnnotationAndMsa.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-522">
-              <caret line="614" column="8" lean-forward="false" selection-start-line="614" selection-start-column="8" selection-end-line="614" selection-end-column="8" />
+            <state relative-caret-position="258">
+              <caret line="666" column="25" lean-forward="true" selection-start-line="666" selection-start-column="25" selection-end-line="666" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -553,6 +545,14 @@
       <workItem from="1497383615316" duration="3060000" />
       <workItem from="1497428112828" duration="12178000" />
     </task>
+    <task id="LOCAL-00001" summary="change makefile to Cmake">
+      <created>1503907804911</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1503907804911</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -872,8 +872,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/reAnnotationAndMsa.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-522">
-          <caret line="614" column="8" lean-forward="false" selection-start-line="614" selection-start-column="8" selection-end-line="614" selection-end-column="8" />
+        <state relative-caret-position="258">
+          <caret line="666" column="25" lean-forward="true" selection-start-line="666" selection-start-column="25" selection-end-line="666" selection-end-column="25" />
           <folding />
         </state>
       </provider>
