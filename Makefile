@@ -2,7 +2,7 @@ cc=g++
 obj= Cds.o song.o myutil.o myfunctions.o alignNeedlemanForTranscript.o nucleotideCodeSubstitutionMatrix.o reAnnotationAndMsa.o model.o parameters.o InputParser.o controlLayer.o
 CXXFLAGS = -std=c++0x -pthread -I ./ -std=c++11
 song: $(obj)
-	$(cc) -o song $(obj) $(CXXFLAGS)
+	$(cc) -o AnnotationLiftOver $(obj) $(CXXFLAGS)
 Cds.o: Cds.cpp
 	$(cc) -c Cds.cpp $(CXXFLAGS)
 myutil.o:	myutil.cpp
@@ -30,4 +30,4 @@ InputParser.o: InputParser.cpp
 controlLayer.o: controlLayer.cpp
 	$(cc) -c controlLayer.cpp $(CXXFLAGS)
 clean:
-	rm -rf *.o song
+	rm -rf *.o AnnotationLiftOver
