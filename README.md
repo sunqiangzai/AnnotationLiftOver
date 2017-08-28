@@ -1,5 +1,12 @@
 # AnnotationLiftOver
-A pipeline to liftover the gene structure of reference genome to other lines/accessions\
+
+The gene sequence and gene structure variation between different accessions/line are very important for natural variation research.
+In general the genomic variants between different lines/accession and reference genome is accessible.
+And the gene structure (always in GFF/GTF format) of reference is well established.
+While the gene structure of variant accessions/lines is also very interesting.
+This pipeline tries to lift the reference gene structure to variant accessions/lines.
+The [alternative alignment problem](https://www.ncbi.nlm.nih.gov/pubmed/25701572) could lead to false positive splice sites disturb of ORF-shift predication.
+Here we solved this problem by a dynamic programming algorithm.
 
 ## install
 go to the source folder:\
