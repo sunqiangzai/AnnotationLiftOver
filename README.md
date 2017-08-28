@@ -10,8 +10,8 @@ this command will generate a file named `AnnotationLiftOver`
 Program `AnnotationLiftOver`\
 Usage:  `AnnotationLiftOver` <command> [options]\
 Commands:\
-`getGenomeSequence`              create fasta file using reference genome sequence and variants calling records\
-`coordinateLiftOver`             get the corresponding coordinate or reference coordinate at another accession\
+`getGenomeSequence`              create fasta file using reference genome sequence and variant calling records\
+`coordinateLiftOver`             get the corresponding coordinate of reference coordinate at another accession\
 `gffCoordinateLiftOver`          transform the reference GFF/GTF coordinate to the coordinate of another accession,
                                don't care about the completeness of start/stop codon, splice sites\
 `getSequences`                   get the protein/CDS/gene sequence with genome sequence file and GFF/GTF file\

@@ -40,35 +40,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4736a4aa-8705-45bd-ba0e-65c915f8f81a" name="Default" comment="change makefile to Cmake">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/clion-environment.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/clion-log.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/geneStructureBasedRealignment.dir/CXX.includecache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/geneStructureBasedRealignment.dir/DependInfo.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/geneStructureBasedRealignment.dir/build.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/geneStructureBasedRealignment.dir/cmake_clean.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/geneStructureBasedRealignment.dir/depend.internal" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/geneStructureBasedRealignment.dir/depend.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/geneStructureBasedRealignment.dir/flags.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/geneStructureBasedRealignment.dir/link.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/geneStructureBasedRealignment.dir/progress.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/geneStructureBasedRealignment" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="4736a4aa-8705-45bd-ba0e-65c915f8f81a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeCache.txt" afterPath="$PROJECT_DIR$/CMakeCache.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeFiles/AnnotationLiftOver.dir/build.make" afterPath="$PROJECT_DIR$/CMakeFiles/AnnotationLiftOver.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeFiles/AnnotationLiftOver.dir/depend.make" afterPath="$PROJECT_DIR$/CMakeFiles/AnnotationLiftOver.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/CMakeFiles/CMakeOutput.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/CMakeFiles/Makefile.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/CMakeFiles/Makefile2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Makefile" afterPath="$PROJECT_DIR$/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controlLayer.cpp" afterPath="$PROJECT_DIR$/controlLayer.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myfunctions.cpp" afterPath="$PROJECT_DIR$/myfunctions.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myfunctions.h" afterPath="$PROJECT_DIR$/myfunctions.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myutil.cpp" afterPath="$PROJECT_DIR$/myutil.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myutil.h" afterPath="$PROJECT_DIR$/myutil.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reAnnotationAndMsa.cpp" afterPath="$PROJECT_DIR$/reAnnotationAndMsa.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reAnnotationAndMsa.h" afterPath="$PROJECT_DIR$/reAnnotationAndMsa.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InputParser.cpp" afterPath="$PROJECT_DIR$/InputParser.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
@@ -91,8 +66,8 @@
       <file leaf-file-name="reAnnotationAndMsa.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reAnnotationAndMsa.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="121" column="5" lean-forward="true" selection-start-line="121" selection-start-column="5" selection-end-line="121" selection-end-column="5" />
+            <state relative-caret-position="1815">
+              <caret line="121" column="5" lean-forward="false" selection-start-line="121" selection-start-column="5" selection-end-line="121" selection-end-column="5" />
               <folding>
                 <element signature="e#463#482#0" expanded="true" />
               </folding>
@@ -103,8 +78,8 @@
       <file leaf-file-name="reAnnotationAndMsa.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reAnnotationAndMsa.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="510">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding>
                 <element signature="e#731#748#0" expanded="true" />
               </folding>
@@ -112,10 +87,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myutil.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="myutil.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myutil.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
+            <state relative-caret-position="3315">
               <caret line="221" column="36" lean-forward="false" selection-start-line="221" selection-start-column="36" selection-end-line="221" selection-end-column="36" />
               <folding>
                 <element signature="e#608#625#0" expanded="true" />
@@ -124,22 +99,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myutil.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myutil.h">
+      <file leaf-file-name="Makefile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Makefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="55" column="5" lean-forward="false" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+            <state relative-caret-position="435">
+              <caret line="29" column="32" lean-forward="false" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controlLayer.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controlLayer.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-              <folding />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="164">
+                <caret line="13" column="68" lean-forward="false" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -147,8 +125,18 @@
       <file leaf-file-name="song.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/song.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="42" column="22" lean-forward="false" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+            <state relative-caret-position="285">
+              <caret line="35" column="11" lean-forward="false" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InputParser.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/InputParser.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="63" column="75" lean-forward="false" selection-start-line="63" selection-start-column="75" selection-end-line="63" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -157,8 +145,8 @@
       <file leaf-file-name="controlLayer.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controlLayer.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="49" column="27" lean-forward="true" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
+            <state relative-caret-position="213">
+              <caret line="38" column="41" lean-forward="true" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
               <folding>
                 <element signature="e#616#635#0" expanded="true" />
               </folding>
@@ -179,7 +167,7 @@
       <file leaf-file-name="myfunctions.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myfunctions.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
+            <state relative-caret-position="672">
               <caret line="116" column="11" lean-forward="false" selection-start-line="116" selection-start-column="11" selection-end-line="116" selection-end-column="11" />
               <folding>
                 <element signature="e#634#652#0" expanded="true" />
@@ -188,21 +176,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myfunctions.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myfunctions.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>less_than_key</find>
       <find>compare_s</find>
       <find>-r</find>
       <find>getSequences</find>
@@ -226,12 +203,13 @@
       <find>myReAnnotationAndExonerateAndNovo</find>
       <find>sdi</find>
       <find>caseInsensitiveStringCompare</find>
-      <find>Sdi</find>
       <find>myReAnnotationLiftoverSingleLine</find>
       <find>reAnnotationSingleLine</find>
       <find>mute</find>
       <find>AnnotationLiftOver</find>
       <find>fastaFix</find>
+      <find>Sdi</find>
+      <find>variants</find>
     </findStrings>
     <replaceStrings>
       <replace>DENOVO</replace>
@@ -265,13 +243,11 @@
         <option value="$PROJECT_DIR$/alignNeedlemanForTranscript.cpp" />
         <option value="$PROJECT_DIR$/test.cpp" />
         <option value="$PROJECT_DIR$/Makefilex99" />
-        <option value="$PROJECT_DIR$/Makefile" />
         <option value="$PROJECT_DIR$/model.h" />
         <option value="$PROJECT_DIR$/model.cpp" />
         <option value="$PROJECT_DIR$/Cds.cpp" />
         <option value="$PROJECT_DIR$/Cds.h" />
         <option value="$PROJECT_DIR$/controlLayer.h" />
-        <option value="$PROJECT_DIR$/InputParser.cpp" />
         <option value="$PROJECT_DIR$/InputParser.h" />
         <option value="$PROJECT_DIR$/nucleotideCodeSubstitutionMatrix.h" />
         <option value="$PROJECT_DIR$/nucleotideCodeSubstitutionMatrix.cpp" />
@@ -282,11 +258,14 @@
         <option value="$PROJECT_DIR$/myutil.h" />
         <option value="$PROJECT_DIR$/myfunctions.cpp" />
         <option value="$PROJECT_DIR$/myfunctions.h" />
-        <option value="$PROJECT_DIR$/controlLayer.cpp" />
         <option value="$PROJECT_DIR$/CMakeCache.txt" />
         <option value="$PROJECT_DIR$/reAnnotationAndMsa.h" />
         <option value="$PROJECT_DIR$/reAnnotationAndMsa.cpp" />
         <option value="$PROJECT_DIR$/myutil.cpp" />
+        <option value="$PROJECT_DIR$/Makefile" />
+        <option value="$PROJECT_DIR$/controlLayer.cpp" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/InputParser.cpp" />
       </list>
     </option>
   </component>
@@ -298,9 +277,8 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="736" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -333,7 +311,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="GO_FMT" value="false" />
   </component>
   <component name="RecentsManager">
@@ -590,7 +568,77 @@
       <option name="project" value="LOCAL" />
       <updated>1503907804911</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="change makefile to Cmake">
+      <created>1503919363726</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1503919363726</updated>
+    </task>
+    <task id="LOCAL-00003" summary="change makefile to Cmake">
+      <created>1503919430332</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1503919430332</updated>
+    </task>
+    <task id="LOCAL-00004" summary="change makefile to Cmake">
+      <created>1503920860701</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1503920860701</updated>
+    </task>
+    <task id="LOCAL-00005" summary="change makefile to Cmake">
+      <created>1503920938032</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1503920938032</updated>
+    </task>
+    <task id="LOCAL-00006" summary="change makefile to Cmake">
+      <created>1503921025070</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1503921025070</updated>
+    </task>
+    <task id="LOCAL-00007" summary="change makefile to Cmake">
+      <created>1503921148266</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1503921148266</updated>
+    </task>
+    <task id="LOCAL-00008" summary="change makefile to Cmake">
+      <created>1503921211103</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1503921211103</updated>
+    </task>
+    <task id="LOCAL-00009" summary="change makefile to Cmake">
+      <created>1503928047840</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1503928047840</updated>
+    </task>
+    <task id="LOCAL-00010" summary="better support for vcf file">
+      <created>1503939027265</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1503939027265</updated>
+    </task>
+    <task id="LOCAL-00011" summary="better support for vcf file">
+      <created>1503939090199</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1503939090199</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -609,13 +657,13 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32737276" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761312" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761312" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31987077" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33441034" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Compute Code Lines" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -623,6 +671,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32737276" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -640,7 +689,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change makefile to Cmake" />
-    <option name="LAST_COMMIT_MESSAGE" value="change makefile to Cmake" />
+    <MESSAGE value="better support for vcf file" />
+    <option name="LAST_COMMIT_MESSAGE" value="better support for vcf file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -661,7 +711,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/alignvarianceToReference.h" />
     <entry file="file://$PROJECT_DIR$/TODO" />
     <entry file="file://$PROJECT_DIR$/testMultipleThreads.cpp" />
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__config">
@@ -703,13 +752,6 @@
     <entry file="file://$PROJECT_DIR$/geneStructureBasedRealignment.cbp" />
     <entry file="file://$PROJECT_DIR$/summary" />
     <entry file="file://$PROJECT_DIR$/Makefilex99" />
-    <entry file="file://$PROJECT_DIR$/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="47" lean-forward="false" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/alignNeedlemanForTranscript.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -746,13 +788,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Cds.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InputParser.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
@@ -805,7 +840,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -813,7 +847,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -821,21 +854,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
           <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myutil.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
+        <state relative-caret-position="825">
           <caret line="55" column="5" lean-forward="false" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myfunctions.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
+        <state relative-caret-position="345">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
@@ -845,7 +876,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-772">
           <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -857,47 +887,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reAnnotationAndMsa.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="e#731#748#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reAnnotationAndMsa.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="121" column="5" lean-forward="true" selection-start-line="121" selection-start-column="5" selection-end-line="121" selection-end-column="5" />
+        <state relative-caret-position="1815">
+          <caret line="121" column="5" lean-forward="false" selection-start-line="121" selection-start-column="5" selection-end-line="121" selection-end-column="5" />
           <folding>
             <element signature="e#463#482#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/song.cpp">
+    <entry file="file://$PROJECT_DIR$/myutil.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="42" column="22" lean-forward="false" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+        <state relative-caret-position="3315">
+          <caret line="221" column="36" lean-forward="false" selection-start-line="221" selection-start-column="36" selection-end-line="221" selection-end-column="36" />
+          <folding>
+            <element signature="e#608#625#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="32" lean-forward="false" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controlLayer.cpp">
+    <entry file="file://$PROJECT_DIR$/reAnnotationAndMsa.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="49" column="27" lean-forward="true" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
+        <state relative-caret-position="510">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
-            <element signature="e#616#635#0" expanded="true" />
+            <element signature="e#731#748#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myfunctions.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
+        <state relative-caret-position="672">
           <caret line="116" column="11" lean-forward="false" selection-start-line="116" selection-start-column="11" selection-end-line="116" selection-end-column="11" />
           <folding>
             <element signature="e#634#652#0" expanded="true" />
@@ -905,13 +935,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myutil.cpp">
+    <entry file="file://$PROJECT_DIR$/song.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="221" column="36" lean-forward="false" selection-start-line="221" selection-start-column="36" selection-end-line="221" selection-end-column="36" />
+        <state relative-caret-position="285">
+          <caret line="35" column="11" lean-forward="false" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="164">
+            <caret line="13" column="68" lean-forward="false" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controlLayer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="38" column="41" lean-forward="true" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
           <folding>
-            <element signature="e#608#625#0" expanded="true" />
+            <element signature="e#616#635#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InputParser.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="63" column="75" lean-forward="false" selection-start-line="63" selection-start-column="75" selection-end-line="63" selection-end-column="75" />
+          <folding />
         </state>
       </provider>
     </entry>

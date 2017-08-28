@@ -60,8 +60,8 @@ void usage( ){
     std::cout << "Program " << progName << std::endl <<
     "Usage:  "<<progName<<" <command> [options]"<< std::endl <<
     "Commands:"<< std::endl <<
-        "getGenomeSequence              create fasta file using reference genome sequence and variants calling records" << std::endl <<
-        "coordinateLiftOver             get the corresponding coordinate or reference coordinate at another accession" << std::endl <<
+        "getGenomeSequence              create fasta file using reference genome sequence and variant calling records" << std::endl <<
+        "coordinateLiftOver             get the corresponding coordinate of reference coordinate at another accession" << std::endl <<
         "gffCoordinateLiftOver          transform the reference GFF/GTF coordinate to the coordinate of another accession," << std::endl <<
         "                               don't care about the completeness of start/stop codon, splice sites" << std::endl<<
         "getSequences                   get the protein/CDS/gene sequence with genome sequence file and GFF/GTF file" << std::endl<<
