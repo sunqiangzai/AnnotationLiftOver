@@ -175,11 +175,7 @@ void readSdiFile (const std::string& filePath, std::map<std::string, std::vector
         }
 
         if( chromosome.length()>0) {
-            if(  (line.compare(0, 3, "Chr")==0 || line.compare(0, 3, "chr")==0) ){
-                if( line.compare(0, chromosome.size(), chromosome)!=0 ){
-                    continue;
-                }
-            }else if(line.compare(0, chromosome.size()-3, chromosome.substr(3))!=0 ) {
+            if( line.compare(0, chromosome.size(), chromosome)!=0 ){
                 continue;
             }
         }
@@ -193,9 +189,6 @@ void readSdiFile (const std::string& filePath, std::map<std::string, std::vector
         if( splits.size() >=5 ){
   //          std::cout << line << std::endl;
             std::string chromosome = splits[0];
-            if( chromosome.length()<3 ){
-                chromosome = "Chr" +  chromosome;
-            }
             int position = std::stoi(splits[1]);
             std::string reference = splits[3];
             std::string alternative = splits[4];
@@ -204,8 +197,8 @@ void readSdiFile (const std::string& filePath, std::map<std::string, std::vector
                 variantsMap[chromosome]=std::vector<Variant>();
             }
             variantsMap[chromosome].push_back(variant);
-
-            println(std::cout, variant);
+//
+//            println(std::cout, variant);
         }
 //        if( match.empty() ){
 //            //std::cout << "empty " << line << std::endl;
@@ -230,7 +223,6 @@ void readSdiFile (const std::string& filePath, std::map<std::string, std::vector
             lastTotalChanged +=(*it2).getChanginglength();
         }
     }
-    //std::cout << "171" << std::endl;
 }
 
 int getChangedFromBasement(std::string chromosomeName, int basement, std::map<std::string, std::vector<Variant> >& variantsMap){

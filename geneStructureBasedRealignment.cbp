@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="geneStructureBasedRealignment"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/song/Dropbox/geneStructureBasedRealignment"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/song/Dropbox/geneStructureBasedRealignment/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/song/Dropbox/geneStructureBasedRealignment/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/song/Dropbox/geneStructureBasedRealignment/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/song/Dropbox/geneStructureBasedRealignment/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/song/Dropbox/geneStructureBasedRealignment"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/song/Dropbox/geneStructureBasedRealignment/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/song/Dropbox/geneStructureBasedRealignment/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/song/Dropbox/geneStructureBasedRealignment/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/song/Dropbox/geneStructureBasedRealignment/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/song/Dropbox/geneStructureBasedRealignment"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/song/Dropbox/geneStructureBasedRealignment/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/song/Dropbox/geneStructureBasedRealignment/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/song/Dropbox/geneStructureBasedRealignment/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/song/Dropbox/geneStructureBasedRealignment/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AnnotationLiftOver">
+				<Option output="/Users/song/Dropbox/geneStructureBasedRealignment/AnnotationLiftOver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/song/Dropbox/geneStructureBasedRealignment"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/song/Dropbox/geneStructureBasedRealignment/Makefile&quot;  VERBOSE=1 AnnotationLiftOver"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/song/Dropbox/geneStructureBasedRealignment/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/song/Dropbox/geneStructureBasedRealignment/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/song/Dropbox/geneStructureBasedRealignment/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AnnotationLiftOver/fast">
+				<Option output="/Users/song/Dropbox/geneStructureBasedRealignment/AnnotationLiftOver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/song/Dropbox/geneStructureBasedRealignment"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/song/Dropbox/geneStructureBasedRealignment/Makefile&quot;  VERBOSE=1 AnnotationLiftOver/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/song/Dropbox/geneStructureBasedRealignment/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/song/Dropbox/geneStructureBasedRealignment/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/song/Dropbox/geneStructureBasedRealignment/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/song/Dropbox/geneStructureBasedRealignment/Cds.cpp">
+			<Option target="AnnotationLiftOver"/>
+		</Unit>
+		<Unit filename="/Users/song/Dropbox/geneStructureBasedRealignment/Cds.h">
+			<Option target="AnnotationLiftOver"/>
+		</Unit>
+		<Unit filename="/Users/song/Dropbox/geneStructureBasedRealignment/InputParser.cpp">
+			<Option target="AnnotationLiftOver"/>
+		</Unit>
+		<Unit filename="/Users/song/Dropbox/geneStructureBasedRealignment/InputParser.h">
+			<Option target="AnnotationLiftOver"/>
+		</Unit>
+		<Unit filename="/Users/song/Dropbox/geneStructureBasedRealignment/alignNeedlemanForTranscript.cpp">
+			<Option target="AnnotationLiftOver"/>
+		</Unit>
+		<Unit filename="/Users/song/Dropbox/geneStructureBasedRealignment/alignNeedlemanForTranscript.h">
+			<Option target="AnnotationLiftOver"/>
+		</Unit>
+		<Unit filename="/Users/song/Dropbox/geneStructureBasedRealignment/alignNeedlemanWunsch.cpp">
+			<Option target="AnnotationLiftOver"/>
+		</Unit>
+		<Unit filename="/Users/song/Dropbox/geneStructureBasedRealignment/alignNeedlemanWunsch.h">
+			<Option target="AnnotationLiftOver"/>
+		</Unit>
+		<Unit filename="/Users/song/Dropbox/geneStructureBasedRealignment/controlLayer.cpp">
+			<Option target="AnnotationLiftOver"/>
+		</Unit>
+		<Unit filename="/Users/song/Dropbox/geneStructureBasedRealignment/controlLayer.h">
+			<Option target="AnnotationLiftOver"/>
+		</Unit>
+		<Unit filename="/Users/song/Dropbox/geneStructureBasedRealignment/model.cpp">
+			<Option target="AnnotationLiftOver"/>
+		</Unit>
+		<Unit filename="/Users/song/Dropbox/geneStructureBasedRealignment/model.h">
+			<Option target="AnnotationLiftOver"/>
+		</Unit>
+		<Unit filename="/Users/song/Dropbox/geneStructureBasedRealignment/myfunctions.cpp">
+			<Option target="AnnotationLiftOver"/>
+		</Unit>
+		<Unit filename="/Users/song/Dropbox/geneStructureBasedRealignment/myfunctions.h">
+			<Option target="AnnotationLiftOver"/>
+		</Unit>
+		<Unit filename="/Users/song/Dropbox/geneStructureBasedRealignment/myutil.cpp">
+			<Option target="AnnotationLiftOver"/>
+		</Unit>
+		<Unit filename="/Users/song/Dropbox/geneStructureBasedRealignment/myutil.h">
+			<Option target="AnnotationLiftOver"/>
+		</Unit>
+		<Unit filename="/Users/song/Dropbox/geneStructureBasedRealignment/nucleotideCodeSubstitutionMatrix.cpp">
+			<Option target="AnnotationLiftOver"/>
+		</Unit>
+		<Unit filename="/Users/song/Dropbox/geneStructureBasedRealignment/nucleotideCodeSubstitutionMatrix.h">
+			<Option target="AnnotationLiftOver"/>
+		</Unit>
+		<Unit filename="/Users/song/Dropbox/geneStructureBasedRealignment/parameters.cpp">
+			<Option target="AnnotationLiftOver"/>
+		</Unit>
+		<Unit filename="/Users/song/Dropbox/geneStructureBasedRealignment/parameters.h">
+			<Option target="AnnotationLiftOver"/>
+		</Unit>
+		<Unit filename="/Users/song/Dropbox/geneStructureBasedRealignment/reAnnotationAndMsa.cpp">
+			<Option target="AnnotationLiftOver"/>
+		</Unit>
+		<Unit filename="/Users/song/Dropbox/geneStructureBasedRealignment/reAnnotationAndMsa.h">
+			<Option target="AnnotationLiftOver"/>
+		</Unit>
+		<Unit filename="/Users/song/Dropbox/geneStructureBasedRealignment/sole.h">
+			<Option target="AnnotationLiftOver"/>
+		</Unit>
+		<Unit filename="/Users/song/Dropbox/geneStructureBasedRealignment/song.cpp">
+			<Option target="AnnotationLiftOver"/>
+		</Unit>
+		<Unit filename="/Users/song/Dropbox/geneStructureBasedRealignment/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

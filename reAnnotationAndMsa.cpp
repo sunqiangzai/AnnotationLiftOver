@@ -28,7 +28,6 @@
 std::mutex gmutex;
 
 
-
 void TranscriptsTogenes(std::string& regexG, std::map<std::string, std::vector<Gene> >& genes,
                         std::map<std::string, Transcript>& targetTranscriptsHashMap){
     std::map< std::string, std::map<std::string, Gene > > tempGenes;
@@ -723,7 +722,7 @@ void transcriptRealignmentAndExonerate( Transcript& tartgetTranscript, Transcrip
 
         if( targetTranscript.getIfOrfShift() ){
             std::string cdsSequence=referenceTranscript.getCdsSequence();
-            if(cdsSequence.length() >0 ){
+            if(cdsSequence.length() >0 && cdsSequence.length() < lengthThread*4){
                 std::string transcriptName = referenceTranscript.getName();
                 std::string targetSequence = getSubsequence(targetGenome, referenceTranscript.getChromeSomeName(),
                                                             startTarget, endTarget, POSITIVE);
@@ -739,7 +738,7 @@ void transcriptRealignmentAndExonerate( Transcript& tartgetTranscript, Transcrip
         }
     }else{
         std::string cdsSequence=referenceTranscript.getCdsSequence();
-        if(cdsSequence.length() >0 ){
+        if(cdsSequence.length() >0 && cdsSequence.length() < lengthThread*4 ){
             std::string transcriptName = referenceTranscript.getName();
             std::string targetSequence = getSubsequence(targetGenome, referenceTranscript.getChromeSomeName(),
                                                         startTarget, endTarget, POSITIVE);
