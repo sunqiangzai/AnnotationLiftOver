@@ -36,6 +36,6 @@ Options\
 So `-prefix Chr` should be set to make the software work properly. If this parameter is not set correctly, the software would act as no variant records in the input vcf/sdi file.   
 
 ### contact
-Any questions? Any suggestions? Any requirement?\
+Any question? Any suggestion? Any requirement?\
 Please feel free to send E-mail to songbaoxing168@163.com.
 
