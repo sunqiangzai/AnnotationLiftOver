@@ -21,7 +21,8 @@ Commands:\
                                reference to the genome sequence of target line and then complementing with
                                aligning protein sequence of reference to the genome sequence of target line
                                Finally the missing gene annotation would be complemented with
-                               other annotation inputted
+                               other annotation inputted\
+                               
 ###getGenomeSequence
 Usage:    * getGenomeSequence -r reference -v variants -o output\
 Options\
