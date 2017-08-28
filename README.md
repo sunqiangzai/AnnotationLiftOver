@@ -34,4 +34,8 @@ Options\
 
 ** -prefix is the prefix of chromosome name for vcf/sdi variant records. Like the chromosome in TAIR10 reference genome is Chr1, Chr2, Chr3, Chr4 and Chr5. While the chromosomes in vcf files from the 1001 genomes project were indicated with 1, 2, 3, 4 and 5.
 So `-prefix Chr` should be set to make the software work properly. If this parameter is not set correctly, the software would act as no variant records in the input vcf/sdi file.   
-   
+
+### contact
+Any questions? Any suggestions? Any requirement?\
+Please feel free to send E-mail to songbaoxing168@163.com.
+
