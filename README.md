@@ -4,7 +4,7 @@ A pipeline to liftover the gene structure of reference genome to other lines/acc
 ## install
 go to the source folder:\
 `make`\
-this command will generate a file named `AnnotationLiftOver`\
+this command will generate a file named `AnnotationLiftOver`
 
 ## run it
 Program `AnnotationLiftOver`\
@@ -21,7 +21,7 @@ Commands:\
                                reference to the genome sequence of target line and then complementing with
                                aligning protein sequence of reference to the genome sequence of target line
                                Finally the missing gene annotation would be complemented with
-                               other annotation inputted\
+                               other annotation inputted
                                
 ### getGenomeSequence
 Usage:    * getGenomeSequence -r reference -v variants -o output\
