@@ -9,8 +9,9 @@ The [alternative alignment problem](https://www.ncbi.nlm.nih.gov/pubmed/25701572
 <p align="center">
 <img src="./doc/alternativeAlignment.gif" width="450px" background-color="#ffffff" />
 </p>
+
 Here we solved this problem by a dynamic programming algorithm.\
-And I believe this pipeline could help to quantify the gene expression for non-reference accession/line and detect the difference expression level across different accession/line.\
+And I believe this pipeline could help to quantify the gene expression for non-reference accession/line and detect the difference expression level across different accession/line.
 
 ## install
 go to the source folder:\
