@@ -7,7 +7,7 @@ While the gene structure of variant accessions/lines is also very interesting.\
 This pipeline tries to lift the reference gene structure to variant accessions/lines.
 The [alternative alignment problem](https://www.ncbi.nlm.nih.gov/pubmed/25701572) could lead to false positive splice sites disturb or ORF-shift predication.
 
-<img src="./doc/alternativeAlignment.gif" alt="" style="width:200px;background-color: #ffffff;"/>
+<img src="./doc/alternativeAlignment.gif" alt="" style="width:100px;background-color: #ffffff;"/>
 Here we solved this problem by a dynamic programming algorithm.\
 And I believe this pipeline could help to quantify the gene expression for non-reference accession/line and detect the difference expression level across different accession/line.
 ## install
