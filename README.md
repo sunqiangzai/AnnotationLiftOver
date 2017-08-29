@@ -48,7 +48,7 @@ So `-prefix Chr` should be set to make the software work properly. If this param
 ### Contact
 Bug report? Any question? Any suggestion? Any requirement? Want to cooperation?\
 Please feel free to send E-mail to songbaoxing168@163.com.\
-Alternative alignment affect more than 50% InDels and make a lot of inference analysis difficult. There are a lot of problems could not be solved by [left alignment](https://www.ncbi.nlm.nih.gov/pubmed/25701572). I am developing a serious tools for this problem. If you have any special problem, please feel free to contact me. 
+Alternative alignment affect more than 50% InDels and makes a lot of inference analysis difficult. There are a lot of problems could not be solved by [left alignment](https://www.ncbi.nlm.nih.gov/pubmed/25701572). I am developing a serious tools for this problem. If you have any related problem, please feel free to contact me. 
 ### acknowledgement
 I thank:\
  Hequan Sun (MPIPZ) for the discussion of algorithm design for gene structure alignment\
