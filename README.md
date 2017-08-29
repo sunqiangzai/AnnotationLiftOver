@@ -5,9 +5,9 @@ In general the genomic variants between different lines/accession and reference 
 And the gene structure (always in GFF/GTF format) of reference is well established.
 While the gene structure of variant accessions/lines is also very interesting.\
 This pipeline tries to lift the reference gene structure to variant accessions/lines.
-The [alternative alignment problem](https://www.ncbi.nlm.nih.gov/pubmed/25701572) could lead to false positive splice sites disturb of ORF-shift predication.
+The [alternative alignment problem](https://www.ncbi.nlm.nih.gov/pubmed/25701572) could lead to false positive splice sites disturb or ORF-shift predication.
 Here we solved this problem by a dynamic programming algorithm.\
-And I believe this pipeline could help to quantify the gene expression across different accession/line.
+And I believe this pipeline could help to quantify the gene expression for non-reference accession/line and detect the difference expression level across different accession/line.
 ## install
 go to the source folder:\
 `make`\
