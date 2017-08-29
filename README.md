@@ -6,6 +6,7 @@ And the gene structure (always in GFF/GTF format) of reference is well establish
 While the gene structure of variant accessions/lines is also very interesting.\
 This pipeline tries to lift the reference gene structure to variant accessions/lines.
 The [alternative alignment problem](https://www.ncbi.nlm.nih.gov/pubmed/25701572) could lead to false positive splice sites disturb or ORF-shift predication.
+![](./doc/alternativeAlignment.gif)
 Here we solved this problem by a dynamic programming algorithm.\
 And I believe this pipeline could help to quantify the gene expression for non-reference accession/line and detect the difference expression level across different accession/line.
 ## install
@@ -43,9 +44,9 @@ Options\
 So `-prefix Chr` should be set to make the software work properly. If this parameter is not set correctly, the software would act as no variant records in the input vcf/sdi file.   
 
 ### Contact
-Bug report? Any question? Any suggestion? Any requirement?\
+Bug report? Any question? Any suggestion? Any requirement? Want to cooperation?\
 Please feel free to send E-mail to songbaoxing168@163.com.
-
+Alternative alignment affect more than 50% InDels and make a lot of inference analysis difficult. There are a lot of problems could not be solved by [left alignment](https://www.ncbi.nlm.nih.gov/pubmed/25701572). I am developing a serious tools for this problem. If you have any special problem, please feel free to contact me. 
 ### acknowledgement
 I thank:\
  Hequan Sun (MPIPZ) for the discussion of algorithm design for gene structure alignment\
